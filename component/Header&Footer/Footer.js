@@ -71,60 +71,60 @@ const Footer = () => {
           <div className={styles["link-boxes"]}>
             <ul className={styles.box}>
               <li className={styles.link_name}>Company</li>
-              <li>
-                <Link href="/">Home</Link>
+              <li >
+                <Link href="/" style={{fontSize:'1.4rem'}}>Home</Link>
               </li>
               <li>
-                <Link href="/contactus">Contact Us</Link>
+                <Link href="/contactus" style={{fontSize:'1.4rem'}}>Contact Us</Link>
               </li>
               <li>
-                <Link href="/about">About Us</Link>
+                <Link href="/about" style={{fontSize:'1.4rem'}}>About Us</Link>
               </li>
               <li>
-                <Link href="/pricing">Pricing</Link>
+                <Link href="/pricing" style={{fontSize:'1.4rem'}}>Pricing</Link>
               </li>
               <li>
-                <Link href="/faqs">Faq's</Link>
+                <Link href="/faqs" style={{fontSize:'1.4rem'}}>Faq's</Link>
               </li>
             </ul>
             <ul className={styles.box}>
               <li className={styles.link_name}>Our Services</li>
               <li>
-                <Link href="/WeightLossPrograms">Weight Loss</Link>
+                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>Weight Loss</Link>
               </li>
               <li>
-                <Link href="/WeightGainPrograms">Weight Gain</Link>
+                <Link href="/WeightGainPrograms" style={{fontSize:'1.4rem'}}>Weight Gain</Link>
               </li>
               <li>
-                <Link href="/KidsNutrition">Kid's Nutrition</Link>
+                <Link href="/KidsNutrition" style={{fontSize:'1.4rem'}}>Kid's Nutrition</Link>
               </li>
               <li>
-                <Link href="/FitnessPerformance">Fitness Performance</Link>
+                <Link href="/FitnessPerformance" style={{fontSize:'1.4rem'}}>Fitness Performance</Link>
               </li>
               <li>
-                <Link href="/DiabetesDeitProgram">Diabetes Deit</Link>
+                <Link href="/DiabetesDeitProgram" style={{fontSize:'1.4rem'}}>Diabetes Deit</Link>
               </li>
               <li>
-                <Link href="/MenopauseDeitProgram">Menopause Deit</Link>
+                <Link href="/MenopauseDeitProgram" style={{fontSize:'1.4rem'}}>Menopause Deit</Link>
               </li>
               <li>
-                <Link href="/PCOD">PCOD</Link>
+                <Link href="/PCOD" style={{fontSize:'1.4rem'}}>PCOD</Link>
               </li>
               <li>
-                <Link href="/WeddingDeitProgram">Wedding Deit</Link>
+                <Link href="/WeddingDeitProgram" style={{fontSize:'1.4rem'}}>Wedding Deit</Link>
               </li>
             </ul>
             {/* <div className='footprob'> */}
             <ul className={styles.box}>
               <li className={styles.link_name}>Policy</li>
               <li>
-                <Link href="/termscondition">Terms & Condition</Link>
+                <Link href="/termscondition" style={{fontSize:'1.4rem'}}>Terms & Condition</Link>
               </li>
               <li>
-                <Link href="/cancellationRefund">Cancellation & Refund</Link>
+                <Link href="/cancellationRefund" style={{fontSize:'1.4rem'}}>Cancellation & Refund</Link>
               </li>
               <li>
-                <Link href="/privacypolicy">Privacy & Policy</Link>
+                <Link href="/privacypolicy" style={{fontSize:'1.4rem'}}>Privacy & Policy</Link>
               </li>
               {/* <li><a href="#">Photoshop</a></li> */}
             </ul>
@@ -134,7 +134,7 @@ const Footer = () => {
                 <MdLocationOn
                   style={{ color: "whitesmoke", marginRight: "1rem" }}
                 />
-                <a href="https://goo.gl/maps/pMLudn9mUUqmGVpZ8">
+                <a href="https://goo.gl/maps/pMLudn9mUUqmGVpZ8" style={{fontSize:'1.4rem'}}>
                   R G K Kowkoor, Secunderabad
                 </a>
               </li>
@@ -142,13 +142,13 @@ const Footer = () => {
                 <AiFillPhone
                   style={{ color: "whitesmoke", marginRight: "1rem" }}
                 />
-                <a href="tel:+917880006363">+917880006363</a>
+                <a href="tel:+917880006363" style={{fontSize:'1.4rem'}}>+917880006363</a>
               </li>
               <li>
                 <AiOutlineMail
                   style={{ color: "whitesmoke", marginRight: "1rem" }}
                 />
-                <a href="mailto:Support@sehatdiets.com">
+                <a href="mailto:Support@sehatdiets.com" style={{fontSize:'1.4rem'}}>
                   Support@sehatdiets.com
                 </a>
               </li>

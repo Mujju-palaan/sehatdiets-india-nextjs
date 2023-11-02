@@ -8,7 +8,7 @@ import SwiperPlan from './Swiper'
 
 const HomePage = () => {
   return (
-    <div style={{fontFamily:'fairytale'}}>
+    <div style={{fontFamily:'fairytale', backgroundColor:'#fff'}}>
     <div className={styles.main}>
       <BannerDivider />
 
