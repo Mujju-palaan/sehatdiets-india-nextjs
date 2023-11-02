@@ -4,7 +4,7 @@ import styles from './HomePlansCard.module.css'
 import Image from 'next/image'
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import Link from "next/link";
-import { useState } from "react";
+// import { useState } from "react";
 
 const HomePlansCard = (props) => {
     // const [openMenu, setOpenMenu] = useState(false);
