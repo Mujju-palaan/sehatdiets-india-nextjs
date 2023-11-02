@@ -84,7 +84,7 @@ const SwiperPlan = () => {
         title="Weekly Diet Plan"
         content={`We specialize in crafting personalized weekly diet plans, tailored to your unique needs and goals. 
         Let us guide you on your journey to a healthier and more balanced lifestyle.`}
-        Images="/plan1.webp"
+        Images="./plan1.webp"
         link="WeightLossPrograms"
       />
           </SwiperSlide>
