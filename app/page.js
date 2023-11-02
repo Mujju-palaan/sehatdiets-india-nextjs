@@ -1,7 +1,7 @@
+import Home from "./home/page"
 
-
-export default function Home() {
+export default function Page() {
   return (
-    <h1>Mujju</h1>
+    <h1><Home></Home></h1>
   )
 }

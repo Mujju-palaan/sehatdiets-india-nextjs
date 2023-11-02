@@ -1,19 +1,26 @@
-'use client'
+// 'use client'
 import React from 'react'
 import styles from './HomePlansCard.module.css'
-// import Image from 'react/image'
+import Image from 'next/image'
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import Link from "next/link";
 import { useState } from "react";
 
 const HomePlansCard = (props) => {
-    const [openMenu, setOpenMenu] = useState(false);
+    // const [openMenu, setOpenMenu] = useState(false);
   return (
     <div className={styles.card}>
-        <img
+        <Image
+          width={576}
+          height={576}
+          src={props.Images}
+          className={styles.img}
+          alt="Image"
+        />
+        {/* <img
         src={props.Images}
         className={styles.img}
-        />
+        /> */}
         <h2
           style={{
             textAlign: "center",
