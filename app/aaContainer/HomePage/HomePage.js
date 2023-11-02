@@ -1,6 +1,6 @@
 import styles from './HomePage.module.scss'
 import React from "react";
-// import BannerDivider from '../../aaContainer/HomePage/BannerDivider/BannerDivider'
+import BannerDivider from './BannerDivider/BannerDivider'
 import BMICalculator from '../../../component/BMICalculator/BMICalculator'
 import HomePlansCard from '../../../component/planscard/HomePlansCard'
 // import SwiperPlan from './Swiper'
@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <div style={{fontFamily:'fairytale'}}>
     <div className={styles.main}>
-      {/* <BannerDivider /> */}
+      <BannerDivider />
 
       <div className={styles.main_girl}>  
         {/* <div className={styles.main_girl_right}>
@@ -41,59 +41,9 @@ const HomePage = () => {
               take charge of your well-being and transform it into a fulfilling lifestyle.
             </p> 
     </div>
-    {/* <div>
-      <video autoPlay style={{ width: '300px', height: '300px' }}>
-        <source src="/Sehatvid.mov" />
-      </video>
-    </div>
+    
 
-    <div>
-    <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />
-    </div> */}
-    {/* <div style={{display:'flex', flexWrap:'wrap', gap:'4rem', textAlign:'center', justifyContent:'center'}}>
-      <HomePlansCard 
-        title="Weekly Diet Plan"
-        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
-        Images="/plan1.webp"
-        link="WeightLossPrograms"
-      />
-      <HomePlansCard 
-        title="Grocery Delivery Service"
-        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
-        Images="./plan2.webp"
-        link="WeightLossPrograms"
-      />
-      <HomePlansCard 
-        title="AI Recipe Maker"
-        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
-        Images="./plan3.png"
-        link="WeightLossPrograms"
-      />
-      <HomePlansCard 
-        title="Virtual Workout Trainer"
-        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
-        Images="./plan4.webp"
-        link="WeightLossPrograms"
-      />
-      <HomePlansCard 
-        title="Access to Ebooks/podcasts"
-        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
-        Images="./plan5.webp"
-        link="WeightLossPrograms"
-      />
-      <HomePlansCard 
-        title="Virtual AI Therapy"
-        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
-        Images="./plan6.jpg"
-        link="WeightLossPrograms"
-      />
-      <HomePlansCard 
-        title="Health Tracking Devices"
-        content={`Transform Your Life with Our Personalized Weight Loss Program.`}
-        Images="./plan7.webp"
-        link="WeightLossPrograms"
-      />
-    </div> */}
+   
     {/* <Partner></Partner> */}
     {/* <SwiperPlan></SwiperPlan> */}
 
