@@ -1,11 +1,11 @@
-import AboutusPage from "../aaContainer/AboutusPage/AboutusPage";
+// import AboutusPage from "../aaContainer/AboutusPage/AboutusPage";
 
-const About = () => {
-  return (
-    <>
-      <AboutusPage />
-    </>
-  );
-};
+// const About = () => {
+//   return (
+//     <>
+//       <AboutusPage />
+//     </>
+//   );
+// };
 
-export default About;
+// export default About;

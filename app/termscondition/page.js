@@ -1,11 +1,11 @@
-import TermsConditionPage from "../aaContainer/TermsConditionPage/TermsConditionPage";
+// import TermsConditionPage from "../aaContainer/TermsConditionPage/TermsConditionPage";
 
-const page = () => {
-  return (
-    <>
-      <TermsConditionPage />
-    </>
-  );
-};
+// const page = () => {
+//   return (
+//     <>
+//       <TermsConditionPage />
+//     </>
+//   );
+// };
 
-export default page;
+// export default page;

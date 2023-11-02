@@ -1,11 +1,11 @@
-import PrivacyPolicyPage from "../aaContainer/PrivacyPolicyPage/PrivacyPolicyPage";
+// import PrivacyPolicyPage from "../aaContainer/PrivacyPolicyPage/PrivacyPolicyPage";
 
-const page = () => {
-  return (
-    <>
-      <PrivacyPolicyPage />
-    </>
-  );
-};
+// const page = () => {
+//   return (
+//     <>
+//       <PrivacyPolicyPage />
+//     </>
+//   );
+// };
 
-export default page;
+// export default page;

@@ -1,13 +1,13 @@
-import PricingPage from "../aaContainer/Pricingpage/PricingPage";
+// import PricingPage from "../aaContainer/Pricingpage/PricingPage";
 
-const Pricing = () => {
-  return (
-    <>
-      <div>
-        <PricingPage />
-      </div>
-    </>
-  );
-};
+// const Pricing = () => {
+//   return (
+//     <>
+//       <div>
+//         <PricingPage />
+//       </div>
+//     </>
+//   );
+// };
 
-export default Pricing;
+// export default Pricing;
