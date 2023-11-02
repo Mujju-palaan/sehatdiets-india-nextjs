@@ -1,0 +1,136 @@
+.plan-card {
+  /* background: #f2e9e9; */
+  background: #F5F6F9 ;
+  width: 30rem;
+  padding-left: 5rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+  /* padding-bottom: 20px; */
+  border-radius: 10px;
+  border-bottom: 4px solid #000446;
+  box-shadow: 0 6px 30px rgba(207, 212, 222, 0.3);
+  font-family: "Poppins", sans-serif;
+}
+.icon{
+  color: #50D5B1;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.plan-card h2 {
+  margin-bottom: 15px;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.plan-card h2 span {
+  display: block;
+  margin-top: 4px;
+  color: #4d4d4d;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.etiquet-price {
+  position: relative;
+  /* background: #fdbd4a; */
+  background: #50D5B1;
+  width: 27rem;
+  margin-left: -0.65rem;
+  padding: 0.2rem 1.2rem;
+  border-radius: 5px 0 0 5px;
+}
+
+.etiquet-price p {
+  margin: 0;
+  padding-top: 0.4rem;
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.etiquet-price p:before {
+  content: "₹";
+  margin-right: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.etiquet-price p:after {
+  content: "/ Year";
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.etiquet-price div {
+  position: absolute;
+  bottom: -23px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  /* border-top: 13px solid #c58102; */
+  border-top: 13px solid #50D5B1;
+  border-bottom: 10px solid transparent;
+  border-right: 13px solid transparent;
+  z-index: -6;
+}
+
+.benefits-list {
+  margin-top: 16px;
+}
+
+.benefits-list ul {
+  padding: 0;
+  font-size: 14px;
+}
+
+.benefits-list ul li {
+  color: #4d4d4d;
+  list-style: none;
+  margin-bottom: 0.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.benefits-list ul li svg {
+  width: 1.8rem;
+  fill: currentColor;
+}
+
+.benefits-list ul li span {
+  font-weight: 300;
+  letter-spacing: 0.04rem;
+}
+
+.button-get-plan {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+
+.button-get-plan a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #50D5B1;
+  color: #fff;
+  padding: 15px 15px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+  font-weight: 500;
+  transition: all 0.5s ease;
+}
+
+.button-get-plan a:hover {
+  transform: translateY(-3%);
+  box-shadow: 0 3px 10px rgba(207, 212, 222, 0.9);
+}
+
+.button-get-plan .svg-rocket {
+  margin-right: 10px;
+  width: 1.5rem;
+  fill: currentColor;
+}

@@ -1,0 +1,43 @@
+.img {
+    object-fit: cover;
+    height: 36rem;
+    width: 36rem;
+    border-radius: 8px;
+  }
+  .card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    max-width: 36rem;
+    min-width: 36rem;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.5s;
+    /* background-color: antiquewhite; */
+    background-color: #fff;
+  }
+  /* .container1:hover {
+      transform: scale(1.05);
+      border: 1px solid #3d3d6b;
+      } */
+  
+  @media screen and (max-width: 400px) {
+    .img {
+      object-fit: cover;
+      height: 32rem;
+      width: 32rem;
+    }
+    .card {
+      max-width: 32rem;
+      min-width: 32rem;
+      height: auto;
+      padding-bottom: 2rem;
+    }
+  }
+  @media screen and (max-width: 585px) {
+  }
+  
+  @media screen and (max-width: 750px) {
+  }
+  
+  @media screen and (min-width: 1350px) {
+  }
+  
