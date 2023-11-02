@@ -3,7 +3,7 @@ import React from "react";
 import BannerDivider from './BannerDivider/BannerDivider'
 import BMICalculator from '../../../component/BMICalculator/BMICalculator'
 import HomePlansCard from '../../../component/planscard/HomePlansCard'
-// import SwiperPlan from './Swiper'
+import SwiperPlan from './Swiper'
 // import Partner from '../../aaContainer/HomePage/partner'
 
 const HomePage = () => {
@@ -45,8 +45,8 @@ const HomePage = () => {
 
    
     {/* <Partner></Partner> */}
-    <div>
-      {/* <SwiperPlan></SwiperPlan> */}
+    <div style={{textAlign:'center',justifyContent:'center',paddingLeft:'1rem'}}>
+      <SwiperPlan></SwiperPlan>
     </div>
 
       <section className={styles.section} style={{fontFamily:'sans-serif'}}>

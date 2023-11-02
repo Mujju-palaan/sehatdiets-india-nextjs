@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-// import './swiper.css'
 import './Swiperpro.css'
 import HomePlansCard from '../../../component/planscard/HomePlansCard'
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -16,7 +15,7 @@ const SwiperPlan = () => {
   return (
     <div >
       
-      <div className="container">
+      <div >
         <Swiper 
         // install Swiper modules
         breakpoints={{

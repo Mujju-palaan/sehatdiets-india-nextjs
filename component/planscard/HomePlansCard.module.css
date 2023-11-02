@@ -13,6 +13,7 @@
     transition: transform 0.5s;
     /* background-color: antiquewhite; */
     background-color: #fff;
+    padding-bottom: 2rem;
   }
   /* .container1:hover {
       transform: scale(1.05);

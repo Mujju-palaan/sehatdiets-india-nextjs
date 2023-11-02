@@ -6,7 +6,24 @@
     justify-content: center;
     justify-self: center;
 }
-
+@media screen and (max-width: 400px) {	
+	.container{
+    box-shadow: none;
+    padding: 0rem;
+    border-radius: 0%;
+}
+}	
+@media screen and (max-width: 585px) {	
+	
+}	
+	
+@media screen and (max-width: 750px) {	
+	
+}	
+	
+@media screen and (min-width: 1350px) {	
+	
+}	
 .swiper-slide-shadow-left,
   .swiper-slide-shadow-right {
     display: none;
