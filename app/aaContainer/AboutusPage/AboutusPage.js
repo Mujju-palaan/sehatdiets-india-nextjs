@@ -44,7 +44,7 @@ const AboutusPage = () => {
             transform your well-being.
           </p>
 
-          <h2 className={styles.h3}>Our Vision: Well-being as a Way of Life</h2>
+          <h2 className={styles.h3} >Our Vision: Well-being as a Way of Life</h2>
           <p style={{color:'gray'}}>
             At SEHAT Nutrition, we envision a world where well-being isn't just
             a goal it's a way of life. Picture families growing closer and
@@ -53,7 +53,7 @@ const AboutusPage = () => {
             to embrace well-being on their own terms.
           </p>
 
-          <h2 className={styles.h3}>Our Commitment: Your Well-being Matters</h2>
+          <h2 className={styles.h3}  >Our Commitment: Your Well-being Matters</h2>
           <p style={{color:'gray'}}>
             Choosing SEHAT Nutrition means committing to your well-being. We
             recognize that each person is unique, so we offer tailored solutions

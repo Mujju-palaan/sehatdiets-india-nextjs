@@ -16,7 +16,7 @@ const Nav = () => {
           <ul className={styles.navbarList}>
             <li className={styles.navbarItem} >
               <Link
-                style={{color:'#F5F6F9'}}
+                style={{color:'#50D5B1'}}
                 className={styles.navbarLink}
                 href="/"
                 onClick={() => setOpenMenu(false)}
@@ -26,7 +26,7 @@ const Nav = () => {
             </li>
             <li className={styles.navbarItem}>
               <Link
-                style={{color:'#F5F6F9'}}
+                style={{color:'#50D5B1'}}
                 className={styles.navbarLink}
                 href="/about"
                 onClick={() => setOpenMenu(false)}
@@ -36,7 +36,7 @@ const Nav = () => {
             </li>
             <li className={styles.navbarItem}>
               <Link
-                style={{color:'#F5F6F9'}}
+                style={{color:'#50D5B1'}}
                 className={styles.navbarLink}
                 onClick={() => setOpenMenu(false)}
                 href="/pricing"
@@ -46,7 +46,7 @@ const Nav = () => {
             </li>
             <li className={styles.navbarItem}>
               <Link
-                style={{color:'#F5F6F9'}}
+                style={{color:'#50D5B1'}}
                 className={styles.navbarLink}
                 onClick={() => setOpenMenu(false)}
                 href="/contactus"

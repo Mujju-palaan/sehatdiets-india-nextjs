@@ -1,0 +1,17 @@
+.imgsize {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  object-fit: cover;
+}
+
+.imgsize1 {
+  width: 38rem;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  object-fit: cover;
+}

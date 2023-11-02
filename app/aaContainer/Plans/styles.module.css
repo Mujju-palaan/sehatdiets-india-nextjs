@@ -1,0 +1,153 @@
+.WeddingbannerImg {
+  background-image: url("./images/plan_weddingbanner2.jpg");
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.WeightLossbannerImg {
+  background-image: url("./images/banner-1.jpg");
+  width: 100%;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.WeightGainbannerImg {
+  background-image: url("./images/plan_weightGainbanner.jpg");
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.PCODbannerImg {
+  background-image: url("./images/Plans_PCODBanner1.jpg");
+  width: 100%;
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.MonopausebannerImg {
+  background-image: url("./images/paln_menopauseBanneer.jpg");
+  width: 100%;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.KidsbannerImg {
+  background-image: url("./images/plan_kidsbanner.jpg");
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.FitnessbannerImg {
+  background-image: url("./images/plan_fitnessBanner.jpg");
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.DiabetesbannerImg {
+  background-image: url("./images/plan_diabetsBanner.jpg");
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 400px) {
+  .main{
+    height: 40vh;
+  }
+  .WeddingbannerImg {
+    height: 100%;
+    width: 120%;
+    background-position: center center;
+    background-size: cover;
+  }
+  .WeightLossbannerImg {
+    height: 100%;
+    width: 100%;
+    background-position: center start;
+    background-size: cover;
+  }
+  .WeightGainbannerImg {
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+  }
+  .PCODbannerImg {
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+  }
+  .MonopausebannerImg {
+    height: 100%;
+    width: 100%;
+    background-position: start center;
+    background-size: cover;  /*cover*/
+  }
+  .KidsbannerImg {
+    height: 100%;
+    width: 150%;
+    background-position: start center;
+    background-size: cover;
+  }
+  .FitnessbannerImg {
+    height: 100%;
+    width: 190%;
+    background-position: center center;
+    background-size: cover;
+  }
+  .DiabetesbannerImg {
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-size: contain;  /*cover*/
+  }
+}
+
+@media screen and (max-width: 585px) {
+}
+
+@media screen and (max-width: 750px) {
+}
+
+@media screen and (min-width: 1350px) {
+}
+
+/* ***************BUTTON**************************** */
+.btnmain {
+  text-align: center;
+  padding: 2rem;
+}
+.btn {
+  background-color: rgba(128, 205, 255, 0.8);
+  margin: 1rem;
+}
+@media screen and (max-width: 400px) {
+  .btnmain {
+    text-align: center;
+    padding: 0rem; 
+  }
+  .btn {
+    background-color: rgba(128, 205, 255, 0.8);
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+    /* padding: 0; */
+    height: 2rem;
+    
+  }
+}
+
+@media screen and (max-width: 585px) {
+}
+
+@media screen and (max-width: 750px) {
+}
+
+@media screen and (min-width: 1350px) {
+}
+/* ***************BUTTON**************************** */
