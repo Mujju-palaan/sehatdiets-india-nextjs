@@ -1,8 +1,9 @@
 import React from 'react'
+import TermsConditionPage from '../aaContainer/TermsConditionPage/TermsConditionPage'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div><TermsConditionPage /></div>
   )
 }
 
