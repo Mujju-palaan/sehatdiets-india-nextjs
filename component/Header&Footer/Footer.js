@@ -165,8 +165,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className={styles["bottom-details"]}>
-          <div className={styles.bottom_text}>
+        <div className={styles["bottom-details"]} >
+          <div className={styles.bottom_text} style={{background:'#50D5B1', fontFamily:'sans-serif'}}>
             <span className={styles.copyright_text}>
               {" "}
               Copyright © 2023

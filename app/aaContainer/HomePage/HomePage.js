@@ -102,7 +102,7 @@ const HomePage = () => {
         <section1>         
           <div className={styles.box1}>
             <div className={styles.box1_img}>
-              <img src='/AdobeStock_588971224_Preview.png'></img>
+              <img src='./AdobeStock_588971224_Preview.png'></img>
             </div>
             
             <div className={styles.box1_content}>
@@ -131,7 +131,7 @@ const HomePage = () => {
             </div>
 
             <div className={styles.box1_img}>
-              <img src='/payment.png'></img>
+              <img src='./payment.png'></img>
             </div>
           </div>
         </section2>
@@ -139,7 +139,7 @@ const HomePage = () => {
         <section3>         
           <div className={styles.box1}>
             <div className={styles.box1_img}>
-              <img src='/call.png'></img>
+              <img src='./call.png'></img>
             </div>
             <div className={styles.box1_content}>
               <h1>
@@ -165,7 +165,7 @@ const HomePage = () => {
               </p>
             </div>
             <div className={styles.box1_img}>
-              <img src='/journey.png'></img>
+              <img src='./journey.png'></img>
             </div>
           </div>
         </section4>
