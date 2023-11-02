@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import "./Ourteam.module.css";
 import styles from "./Ourteam.module.css";
