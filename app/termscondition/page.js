@@ -1,12 +1,9 @@
-// import TermsConditionPage from "../aaContainer/TermsConditionPage/TermsConditionPage";
+import React from 'react'
 
 const page = () => {
   return (
-    <>
-      {/* <TermsConditionPage /> */}
-      <h1>Mujju</h1>
-    </>
-  );
-};
+    <div>page</div>
+  )
+}
 
-export default page;
+export default page

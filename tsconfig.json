@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "app/aaContainer/AboutusPage/AboutusPage.js"  ],
   "exclude": [
     "node_modules"
   ]

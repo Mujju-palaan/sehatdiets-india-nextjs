@@ -45,7 +45,9 @@ const HomePage = () => {
 
    
     {/* <Partner></Partner> */}
-    {/* <SwiperPlan></SwiperPlan> */}
+    <div>
+      {/* <SwiperPlan></SwiperPlan> */}
+    </div>
 
       <section className={styles.section} style={{fontFamily:'sans-serif'}}>
         <h1 style={{textAlign:'center', color:'#50D5B1 '}}>How it Works</h1>
