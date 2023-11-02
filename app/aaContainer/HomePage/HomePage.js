@@ -156,10 +156,6 @@ const HomePage = () => {
         <Testimonials></Testimonials>
       </section> */}
 
-      
-      
-
-
     </div>
   );
 };

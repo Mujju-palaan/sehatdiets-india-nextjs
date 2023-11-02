@@ -7,7 +7,7 @@ import styles from './styles.module.scss'
 
 const PricingPage = () => {
   return (
-    <>
+    <div style={{backgroundColor:'#fff'}}>
       <h2 style={{ padding: "4rem 0 0 0", textAlign: "center" , color:'#50D5B1', fontFamily:'sans-serif'}}>
         Yearly Subscription
       </h2>
@@ -95,7 +95,7 @@ const PricingPage = () => {
         <Testimonials></Testimonials>
       </section>
 
-    </>
+    </div>
   );
 };
 

@@ -4,7 +4,7 @@ import styles from "./Contact.module.css";
 
 const ContactusPage = () => {
   return (
-    <>
+    <div style={{backgroundColor:'#fff'}}>
       <div className={styles.container}>
         <h1>Contact Us</h1>
         <ContactCard />
@@ -32,7 +32,7 @@ const ContactusPage = () => {
         className={styles.mapping}
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
-    </>
+    </div>
   );
 };
 
