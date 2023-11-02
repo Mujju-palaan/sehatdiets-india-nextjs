@@ -10,17 +10,17 @@ const HomePlansCard = (props) => {
     // const [openMenu, setOpenMenu] = useState(false);
   return (
     <div className={styles.card}>
-        <Image
+        {/* <Image
           width={576}
           height={576}
           src={props.Images}
           className={styles.img}
           alt="Image"
-        />
-        {/* <img
+        /> */}
+        <img
         src={props.Images}
         className={styles.img}
-        /> */}
+        />
         <h2
           style={{
             textAlign: "center",
