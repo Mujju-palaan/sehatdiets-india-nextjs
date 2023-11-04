@@ -8,6 +8,22 @@
     height: 800px;
     width: 800px;
 }
+.call{
+    height: 350px;
+    width: 350px;
+}
+.payment{
+    height: 350px;
+    width: 350px;
+}
+.journey{
+    height: 450px;
+    width: 450px;
+}
+.Preamble{
+    height: 450px;
+    width: 450px;
+}
 
 @media (max-width: 400px) {
     .Banner_Vector{
@@ -20,5 +36,9 @@
     .size{
         height: 100px;
         width: 100px;
+    }
+    .journey{
+        height: 350px;
+        width: 350px;
     }
 }

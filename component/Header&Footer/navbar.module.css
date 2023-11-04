@@ -31,12 +31,17 @@
   height: 100%;
   display: grid;
   place-items: center;
+  /* color: #50D5B1; */
+}
+.navbarLink{
+  color: #50D5B1;
+
 }
 
 .navbarList a {
   font-weight: bold;
   font-size: 1.8rem;
-  color: #161617;
+  color: #F5F6F9;
   padding: 2rem 1rem;
   margin: 0;
   position: relative;
@@ -79,7 +84,7 @@
 }
 
 .navbarList .navbarItem a:hover {
-  color: #050505;
+  color: #F5F6F9;
   /* font-size: 2rem; */
 }
 
@@ -138,6 +143,9 @@
     visibility: hidden;
     opacity: 0;
   }
+  .navbarList a {
+    color: #50D5B1;
+  }
 
   .navbarList .navbarItem {
     font-size: 4.2rem;
@@ -158,7 +166,7 @@
     position: absolute;
     top: 3%;
     right: 10%;
-    color: #161617;
+    color: gray;
     z-index: 9999;
   }
 

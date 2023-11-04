@@ -5,6 +5,12 @@ import BMICalculator from '../../../component/BMICalculator/BMICalculator'
 import HomePlansCard from '../../../component/planscard/HomePlansCard'
 import SwiperPlan from './Swiper'
 // import Partner from '../../aaContainer/HomePage/partner'
+import Payment from '../../../animation/Payment'
+import Call2 from '../../../animation/Call2'
+import Journey from '../../../animation/Journey'
+import Preamble from '../../../animation/Preamble'
+
+
 
 const HomePage = () => {
   return (
@@ -36,7 +42,7 @@ const HomePage = () => {
         "Nutrition Tailored Just for You"</h1>
       <p style={{fontFamily:'Pangeatext,sans-serif',color:'rgba(0,0,0,.5)',paddingBottom:'4rem'}}> 
       In today's fast-paced world, SEHAT Nutrition isn't just a wellness platform, it's your gateway
-              to an extraordinary life, available at an incredible rate of just ₹10 pre day, Seamlessly blending
+              to an extraordinary life, available at an incredible rate of just ₹10 per day, Seamlessly blending
               personalized nutrition, cutting-edge technology and unwavering support, we empower you to
               take charge of your well-being and transform it into a fulfilling lifestyle.
             </p> 
@@ -54,15 +60,16 @@ const HomePage = () => {
         <section1>         
           <div className={styles.box1}>
             <div className={styles.box1_img}>
-              <img src='./AdobeStock_588971224_Preview.png'></img>
+              {/* <img src='./AdobeStock_588971224_Preview.png'></img> */}
+              <Preamble></Preamble>
             </div>
             
             <div className={styles.box1_content}>
               <h1>
               <span1>1</span1>{" "}
-              <span2 style={{color:'#50D5B1 '}}>Preamble :</span2>
+              <span2 style={{color:'#50D5B1 '}}>Select Plan :</span2>
               </h1>
-              <p>Begin by selecting thw wellness plan that aligns with your goals 
+              <p>Begin by selecting the wellness plan that aligns with your goals 
                 -individuals, Family or Corporate.
               </p>
             </div>
@@ -83,7 +90,7 @@ const HomePage = () => {
             </div>
 
             <div className={styles.box1_img}>
-              <img src='./payment.png'></img>
+              <Payment></Payment>
             </div>
           </div>
         </section2>
@@ -91,14 +98,15 @@ const HomePage = () => {
         <section3>         
           <div className={styles.box1}>
             <div className={styles.box1_img}>
-              <img src='./call.png'></img>
+              {/* <img src='./call.png'></img> */}
+              <Call2></Call2>
             </div>
             <div className={styles.box1_content}>
               <h1>
                 <span1>3</span1>{" "}
                 <span2 style={{color:'#50D5B1 '}}>Welcome Call :</span2>
               </h1>
-              <p>Expect a call from our dedicated dieticican, whon will guide you towards 
+              <p>Expect a call from our dedicated dieticican, who will guide you towards 
                 a personalized well-being journey.
               </p>
             </div>
@@ -117,7 +125,8 @@ const HomePage = () => {
               </p>
             </div>
             <div className={styles.box1_img}>
-              <img src='./journey.png'></img>
+              {/* <img src='./journey.png'></img> */}
+              <Journey></Journey>
             </div>
           </div>
         </section4>
