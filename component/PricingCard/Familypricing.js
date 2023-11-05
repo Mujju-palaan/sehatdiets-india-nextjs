@@ -5,7 +5,7 @@ const Familypricing = (props) => {
   return (
     <>
       <div className="plan-card">
-        <h2>
+        <h2 style={{color:'#50D5B1'}}>
           {props.title} <img src="./recomm.png" width={40} height={40} ></img>
           <span>{props.subtitle}</span>
         </h2>

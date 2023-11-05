@@ -1,11 +1,11 @@
-import "./PricingCard.css";
+import "./PricingCard.css"; 
 import { AiOutlineCheckCircle, AiOutlineCloseCircle } from "react-icons/ai";
 
 const PricingCard = (props) => {
   return (
     <>
       <div className="plan-card">
-        <h2>
+        <h2 style={{color:'#50D5B1'}}>
           {props.title}
           <span>{props.subtitle}</span>
         </h2>

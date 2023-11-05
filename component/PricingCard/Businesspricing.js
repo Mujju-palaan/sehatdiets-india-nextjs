@@ -5,7 +5,7 @@ const Businesspricing = (props) => {
   return (
     <>
       <div className="plan-card">
-        <h2>
+        <h2 style={{color:'#50D5B1'}}>
           {props.title}
           <span>{props.subtitle}</span>
         </h2>
