@@ -152,14 +152,14 @@ const Footer = () => {
             </ul>
             <ul className={styles.box}>
               <li className={styles.link_name}>Contact Us</li>
-              <li>
+              {/* <li>
                 <MdLocationOn
                   style={{ color: "whitesmoke", marginRight: "1rem" }}
                 />
                 <a href="https://goo.gl/maps/pMLudn9mUUqmGVpZ8" style={{fontSize:'1.4rem'}}>
                   R G K Kowkoor, Secunderabad
                 </a>
-              </li>
+              </li> */}
               <li>
                 <AiFillPhone
                   style={{ color: "whitesmoke", marginRight: "1rem" }}

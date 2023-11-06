@@ -69,8 +69,8 @@ const HomePage = () => {
               <span1>1</span1>{" "}
               <span2 style={{color:'#50D5B1 '}}>Select Plan :</span2>
               </h1>
-              <p>Begin by selecting the wellness plan that aligns with your goals 
-                -individuals, Family or Corporate.
+              <p>Begin by selecting the wellness plan that aligns with your goal
+                individual, Family or Corporate.
               </p>
             </div>
           </div>
@@ -120,7 +120,7 @@ const HomePage = () => {
                 <span1>4</span1>{" "}
                 <span2 style={{color:'#50D5B1 '}}>Start Your Wellness Journey :</span2>
               </h1>
-              <p>With a plan in place, embark your transformative journey to healthier, happier you,
+              <p>With a plan in place, embark on transformative journey to healthier, happier you,
                 supported by our expert guidance and our 1-month, 100% refund policy.
               </p>
             </div>
