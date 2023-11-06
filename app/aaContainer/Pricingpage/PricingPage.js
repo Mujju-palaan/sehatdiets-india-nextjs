@@ -2,7 +2,7 @@
 import PricingCard from '../../../component/PricingCard/PricingCard'
 import Familypricing from '../../../component/PricingCard/Familypricing';
 import Businesspricing from '../../../component/PricingCard/Businesspricing';
-import Testimonials from '../Testimonials/Testimonials'
+import Testimonials from './Testimonials/Testimonials'
 import styles from './styles.module.scss'
 
 const PricingPage = () => {
@@ -82,18 +82,14 @@ const PricingPage = () => {
       
       </div>
       <CC /> */}
-      <section className={styles.Testimonials}>
+      {/* <section className={styles.Testimonials}>
         <h1 style={{color:'#50D5B1', fontFamily:'sans-serif,Pangeatext'}}>We Never Stop Smiling !</h1>
         <p style={{color:'gray',fontFamily:'sans-serif,Pangeatext'}}>
           Hi and nice to meet you! This isour brave team. We work very hard to provide an awesome experience for you.
         </p>
         
-        <div style={{display:'flex'}}>
-        {/* <TeamMembers></TeamMembers> */}
-        </div>
-        
         <Testimonials></Testimonials>
-      </section>
+      </section> */}
 
     </div>
   );

@@ -10,6 +10,7 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper";
+import { delay } from "framer-motion";
 
 const SwiperPlan = () => { 
   return (
@@ -50,12 +51,12 @@ const SwiperPlan = () => {
           },
         }}
         scrollbar={{ draggable: true }}
-        //   autoplay={{
-        //     delay: 1000,
-        //     disableOnInteraction: false,
-        //     pauseOnMouseEnter: true,
-        //   }}
-          spaceBetween={30}
+          autoplay={{
+            delay: 1000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+          }}
+          spaceBetween={50}
           style={{ overflow: "hidden"}}
           effect={"coverflow"}
           grabCursor={true}
