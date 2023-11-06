@@ -11,6 +11,7 @@
 .container h1 {
   margin-top: 3.2rem;
   font-size: 4.2rem;
+  columns: #50D5B1;
 }
 
 /*for the main contact two section*/
@@ -35,6 +36,9 @@
     margin: 0 auto;
     text-align: center;
   }
+  /* .container h1 {
+    columns: #50D5B1;
+  } */
 }
 
 @media screen and (max-width: 585px) {
