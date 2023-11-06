@@ -90,6 +90,28 @@ const Footer = () => {
             <ul className={styles.box}>
               <li className={styles.link_name}>Our Services</li>
               <li>
+                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>Weekly Diet Plan</Link>
+              </li>
+              <li>
+                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>Workout Trainer</Link>
+              </li>
+              <li>
+                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>AI Therapy</Link>
+              </li>
+              <li>
+                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>AI Recipe Maker</Link>
+              </li>
+              <li>
+                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>Ebooks/Podcasts</Link>
+              </li>
+              <li>
+                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>Grocery Delivery</Link>
+              </li>
+              <li>
+                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>Fitness Trackers</Link>
+              </li>
+              
+              {/* <li>
                 <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>Weight Loss</Link>
               </li>
               <li>
@@ -112,7 +134,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/WeddingDeitProgram" style={{fontSize:'1.4rem'}}>Wedding Deit</Link>
-              </li>
+              </li> */}
             </ul>
             {/* <div className='footprob'> */}
             <ul className={styles.box}>
