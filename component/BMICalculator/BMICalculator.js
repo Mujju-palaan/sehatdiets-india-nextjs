@@ -64,8 +64,8 @@ const BMICalculator = () => {
       </form>
  
       <div className='center'>
-        <h3 style={{fontSize:'1.4rem'}}>Your BMI is: {bmi}</h3>
-        <p>{message}</p>
+        <h3 style={{fontSize:'1.4rem', color:'gray'}}>Your BMI is: {bmi}</h3>
+        <p style={{color:'#50D5B1'}}>{message}</p>
       </div>
     </div>
   </div>
