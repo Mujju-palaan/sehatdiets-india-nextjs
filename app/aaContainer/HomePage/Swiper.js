@@ -56,13 +56,13 @@ const SwiperPlan = () => {
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
           }}
-          spaceBetween={50}
+          spaceBetween={150}
           style={{ overflow: "hidden"}}
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
           loop={true}
-          slidesPerView={"3"}
+          slidesPerView={3}
           watchOverflow={"none"}
           coverflowEffect={{
             rotate: 0,
@@ -147,7 +147,7 @@ const SwiperPlan = () => {
           
           {/* ***********Slider dots******************** */}
 
-          <div className="slider-controler" style={{ paddingTop: "8rem" }}>
+          <div className="slider-controler" style={{ paddingTop: "6rem" }}>
             <div className="swiper-button-prev slider-arrow">
               <ion-icon name="arrow-back-outline"></ion-icon>
             </div>
