@@ -6,7 +6,8 @@ const Familypricing = (props) => {
     <>
       <div className="plan-card">
         <h2 style={{color:'#50D5B1'}}>
-          {props.title} <img src="./recomm.png" width={40} height={40} ></img>
+          {props.title} 
+          {/* <img src="./recomm.png" width={40} height={40} ></img> */}
           <span>{props.subtitle}</span>
         </h2>
         <div className="etiquet-price">
