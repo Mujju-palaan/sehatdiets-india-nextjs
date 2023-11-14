@@ -164,7 +164,7 @@ const Footer = () => {
                 <AiFillPhone
                   style={{ color: "whitesmoke", marginRight: "1rem" }}
                 />
-                <a href="tel:+917880006363" style={{fontSize:'1.4rem'}}>+917880006363</a>
+                <a href="tel:+918712219195" style={{fontSize:'1.4rem'}}>+918712219195</a>
               </li>
               <li>
                 <AiOutlineMail
