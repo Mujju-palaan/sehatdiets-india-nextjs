@@ -101,7 +101,7 @@ const SwiperPlan = () => {
           <HomePlansCard 
         title="AI Therapy"
         content={`Revolutionizing mental health support with innovative and accessible solutions. Explore the future of mental well-being.`}
-        Images="./plan6.jpg"
+        Images="./plan6.WEBP"
         // plan6.jpg
         link="WeightLossPrograms"
       />
@@ -112,7 +112,7 @@ const SwiperPlan = () => {
           <HomePlansCard 
         title="AI Recipe Maker"
         content={`Redefining cooking with smart and personalized recipe suggestions. Elevate your culinary experience with artificial intelligence.`}
-        Images="./plan3.png"
+        Images="./plan3.WEBP"
         // plan3.png
         link="WeightLossPrograms"
       />
