@@ -33,6 +33,9 @@
   place-items: center;
   /* color: #50D5B1; */
 }
+.navbarItem :hover{
+  transform: scale(1.15);
+}
 .navbarLink{
   color: #50D5B1;
 

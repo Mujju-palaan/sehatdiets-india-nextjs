@@ -33,8 +33,8 @@ const ContactCard = () => {
             <p className={styles.last_para}>Weekends: 9 AM — 5 PM ET </p>
             <Link
               
-              href="//api.whatsapp.com/send?phone=917867837866 
-                        &text=WHATEVER_LINK_OR_TEXT_YOU_WANT_TO_SEND"
+              href="//api.whatsapp.com/send?phone=918712219195 
+                        &text=Welcome to SEHAT NUTRITION Official"
             >
               {" "}
               Chat Now <span>-&gt;</span>
