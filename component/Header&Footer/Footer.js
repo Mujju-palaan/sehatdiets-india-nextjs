@@ -60,12 +60,12 @@ const Footer = () => {
                   <FaLinkedinIn />{" "}
                 </i>
               </Link>
-              <Link href="https://www.youtube.com" target="_blank">
+              {/* <Link href="https://www.youtube.com" target="_blank">
                 <i>
                   {" "}
                   <FaYoutube />{" "}
                 </i>
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className={styles["link-boxes"]}>
