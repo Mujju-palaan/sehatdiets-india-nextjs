@@ -66,8 +66,8 @@
   position: absolute;
   bottom: -23px;
   right: 0px;
-  width: 0;
-  height: 0;
+  width: 0rem;
+  height: 0rem;
   /* border-top: 13px solid #c58102; */
   border-top: 13px solid #50D5B1;
   border-bottom: 10px solid transparent;
@@ -133,4 +133,43 @@
   margin-right: 10px;
   width: 1.5rem;
   fill: currentColor;
+}
+
+@media screen and (max-width: 330px) {
+  .plan-card {
+    background: #F5F6F9 ;
+    width: 32rem;
+    padding-left: 5rem;
+    padding-right: 4rem;
+  }
+  .etiquet-price {
+    position: relative;
+    width: 29rem;
+    margin-left: -0.65rem;
+  }
+}
+@media screen and (min-width: 331px) {
+  .plan-card {
+    background: #F5F6F9 ;
+    width: 34rem;
+    padding-left: 5rem;
+    padding-right: 4rem;
+  }
+  .etiquet-price {
+    position: relative;
+    width: 29rem;
+    margin-left: -0.65rem;
+  }
+  .etiquet-price div {
+    position: absolute;
+    bottom: -23px;
+    right: 0px;
+    width: 0rem;
+    height: 0rem;
+    /* border-top: 13px solid #c58102; */
+    border-top: 13px solid #50D5B1;
+    border-bottom: 10px solid transparent;
+    border-right: 13px solid transparent;
+    z-index: -8;
+  }
 }
