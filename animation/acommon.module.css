@@ -24,21 +24,168 @@
     height: 450px;
     width: 450px;
 }
-
-@media (max-width: 400px) {
-    .Banner_Vector{
-        margin-top: -6rem;
-        margin-left: -10rem;
-        height: 500px;
-        width: 500px;
-        text-align: center;
-    }
+@media screen and (min-width: 320px) {
     .size{
         height: 100px;
         width: 100px;
     }
+    .Banner_Vector{
+        margin-top: -4rem;
+        margin-left: -8rem;
+        height: 450px;
+        width: 450px;
+    }
+    .call{
+        height: 330px;
+        width: 330px;
+    }
+    .payment{
+        height: 330px;
+        width: 330px;
+    }
     .journey{
+        height: 330px;
+        width: 330px;
+    }
+    .Preamble{
+        height: 400px;
+        width: 400px;
+    }
+}
+@media screen and (min-width:481px)  { 
+    .size{
+        height: 200px;
+        width: 200px;
+    }
+    .Banner_Vector{
+        margin-top: -8rem;
+        margin-left: -8rem;
+        height: 600px;
+        width: 600px;
+    }
+    .call{
         height: 350px;
         width: 350px;
     }
-}
+    .payment{
+        height: 450px;
+        width: 450px;
+    }
+    .journey{
+        height: 450px;
+        width: 450px;
+    }
+    .Preamble{
+        height: 500px;
+        width: 500px;
+    }
+ }						
+@media screen and (min-width:641px)  { 
+    .size{
+        height: 200px;
+        width: 200px;
+    }
+    .Banner_Vector{
+        margin-top: -12rem;
+        margin-left: -8rem;
+        height: 800px;
+        width: 800px;
+    }
+    .call{
+        height: 350px;
+        width: 350px;
+    }
+    .payment{
+        height: 500px;
+        width: 500px;
+    }
+    .journey{
+        height: 550px;
+        width: 550px;
+    }
+    .Preamble{
+        height: 600px;
+        width: 600px;
+    }
+ }	
+ @media screen and (min-width:886px) and (max-width:1025px){
+    .size{
+        height: 200px;
+        width: 200px;
+    }
+    .Banner_Vector{
+        margin-top: -8rem;
+        margin-left: -10rem;
+        height: 650px;
+        width: 650px;
+    }
+    .call{
+        height: 400px;
+        width: 400px;
+    }
+    .payment{
+        height: 400px;
+        width: 400px;
+    }
+    .journey{
+        height: 400px;
+        width: 400px;
+    }
+    .Preamble{
+        height: 500px;
+        width: 500px;
+    }
+ }					
+			
+@media screen and (min-width:1026px) { 
+    .Banner_Vector{
+        margin-top: -8rem;
+        margin-left: -8rem;
+        height: 700px;
+        width: 700px;
+    }
+    .call{
+        height: 350px;
+        width: 350px;
+    }
+    .payment{
+        height: 350px;
+        width: 350px;
+    }
+    .journey{
+        height: 450px;
+        width: 450px;
+    }
+    .Preamble{
+        height: 450px;
+        width: 450px;
+    }
+ }			
+@media screen and (min-width:1281px) { 
+    .size{
+        height: 200px;
+        width: 200px;
+    }
+    .Banner_Vector{
+        margin-top: -12rem;
+        margin-left: -8rem;
+        height: 800px;
+        width: 800px;
+    }
+    .call{
+        height: 350px;
+        width: 350px;
+    }
+    .payment{
+        height: 350px;
+        width: 350px;
+    }
+    .journey{
+        height: 450px;
+        width: 450px;
+    }
+    .Preamble{
+        height: 450px;
+        width: 450px;
+    }
+ }			

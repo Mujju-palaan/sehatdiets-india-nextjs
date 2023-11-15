@@ -106,8 +106,35 @@
 .mobile-navbar-btn[name="close-outline"] {
   display: none;
 }
+@media screen and (min-width: 600px) {
+  .navbarList {
+    gap: 2rem
+  }
+  .main_header {
+    padding: 0 2rem;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+  }
+}
+@media screen and (min-width: 981px) {
+  .navbarList {
+    gap: 4rem
+  }
+  .main_header {
+    padding: 0 6rem;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+  }
+}
 
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 600px) {
   .main_header {
     padding: 0 2rem; 
     /* 5rem */

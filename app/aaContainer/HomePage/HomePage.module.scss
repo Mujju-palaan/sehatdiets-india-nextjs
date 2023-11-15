@@ -21,7 +21,7 @@
     // margin-bottom: 0px;
     min-height: 30px;
     min-width: 30px;
-    @media screen and (max-width: 750px) {	
+    @media screen and (max-width: 886px) {	
         height: 40px;
         width: 40px;
         font-size: 22px;
@@ -31,7 +31,7 @@
 }
 .extraheight{
     margin: 2rem;
-    padding: 10rem 2rem 2rem 2rem;
+    padding: 10rem 2rem 2rem 2rem;    
     h1{
         font-family: sans-serif,Pangeatext;
         font-size: 48px;
@@ -281,11 +281,12 @@
     text-align: center;
 }
 
-@media screen and (max-width: 400px) {	
+@media screen and (max-width: 886px) {	
 	
     .extraheight{
         margin: 0rem;
         padding: 2rem;
+        padding-top: 4rem;
         h1{
             font-family: sans-serif,Pangeatext;
             font-size: 25px;
@@ -465,55 +466,123 @@
     }
 }
 
-.journey{
-    padding: 6rem 0rem;
-    main{
-        text-align: center;
-        padding-bottom: 4rem;
-        h1{
-            font-size: 3rem;
-        }
-    }
-    .box1{
-        display: flex;
-        flex-direction: column;
-        &_img{
-            width: 100%;
-            text-align: center;
-            justify-content: center;
-            justify-self: center;
-            // padding-left: 2rem;
-            img{
-                height: 300px;
-                    width: 300px;
-                
-            }
-        }      
-        &_content{
-            width: 100%;
-            padding: 2rem;
-            h2{
-                text-align: center;
-            }
-            p{
-                color: gray;
-                text-align: center;
-            }
-        }
-    }
+@media screen and (min-width:886px) and (max-width:1025px){
     
-}
-.Testimonials{
-    padding: 2rem;
-    text-align: center;
-    h1{
-        font-size: 3rem;
+    .section{
+        h1{
+            // text-align: center;
+            padding: 4rem 0rem;
+        }
+        section1{
+            .box1{
+                display: flex;
+                &_img{
+                    padding-left: 0rem;
+                }              
+                &_content{
+                    width: 60%;
+                    padding: 4rem;
+                    margin-left: 3rem;
+                    margin-top: 4rem;
+                    h1{
+                        font-size: 4rem;
+                        span1{
+                            @include circle()
+                        }
+                        span2{
+                            text-align: left;
+                        }
+                    }
+                    p{
+                        padding: 0rem 2rem;
+                    }
+                }
+            }
+    
+        }
+        section2{
+            .box1{
+                display: flex;
+                &_img{
+                    margin-left: -8rem;
+                }
+                
+                &_content{
+                    width: 60%;
+                    padding: 4rem;
+                    h1{
+                        font-size: 4rem;
+                        span1{
+                            @include circle()
+                        }
+                        span2{
+                            
+                        }
+                    }
+                    p{
+                        padding: 0rem 2rem;
+                        color: gray;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        section3{
+            .box1{
+                display: flex;
+                &_img{
+                    padding-left: 0rem;
+                }
+                
+                &_content{
+                    width: 60%;
+                    padding: 4rem;
+                    h1{
+                        font-size: 4rem;
+                        span1{
+                            @include circle()
+                        }
+                        span2{
+                            
+                        }
+                    }
+                    p{
+                        padding: 0rem 2rem;
+                        color: gray;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        section4{
+            .box1{
+                display: flex;
+                &_img{
+                    padding-left: 0rem;
+                    margin-left: -6rem;
+                }
+                
+                &_content{
+                    width: 60%;
+                    padding: 4rem;
+                    h1{
+                        font-size: 4rem;
+                        span1{
+                            @include circle()
+                        }
+                        span2{
+                            
+                        }
+                    }
+                    p{
+                        padding: 0rem 2rem;
+                        color: gray;
+                        text-align: center;
+                    }
+                }
+            }
+        }
     }
 }
 	
-@media screen and (max-width: 750px) {	
-	
-}	
-	
-@media screen and (min-width: 1350px) {	
-}
+			

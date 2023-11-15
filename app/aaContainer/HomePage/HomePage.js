@@ -16,7 +16,8 @@ const HomePage = () => {
   return (
     <div style={{fontFamily:'fairytale', backgroundColor:'#fff'}}>
     <div className={styles.main}>
-      <BannerDivider />
+
+      <BannerDivider style={{textAlign:'center',justifyContent:'center'}}/>
 
       <div className={styles.main_girl}>  
         {/* <div className={styles.main_girl_right}>
@@ -38,8 +39,7 @@ const HomePage = () => {
     </div>
 
     <div className={styles.extraheight} style={{textAlign:'center'}}>
-      <h1>
-        "Nutrition Tailored Just for You"</h1>
+      <h1>"Nutrition Tailored Just for You"</h1>
       <p style={{fontFamily:'Pangeatext,sans-serif',color:'rgba(0,0,0,.5)',paddingBottom:'4rem'}}> 
       In today's fast-paced world, SEHAT Nutrition isn't just a wellness platform, it's your gateway
               to an extraordinary life, available at an incredible rate of just ₹10 per day, Seamlessly blending
@@ -59,8 +59,7 @@ const HomePage = () => {
         <h1 style={{textAlign:'center', color:'#50D5B1 '}}>How it Works</h1>
         <section1>         
           <div className={styles.box1}>
-            <div className={styles.box1_img}>
-              {/* <img src='./AdobeStock_588971224_Preview.png'></img> */}
+            <div className={styles.box1_img} style={{textAlign:'center', justifyContent:'center',justifySelf:'center'}}>
               <Preamble></Preamble>
             </div>
             

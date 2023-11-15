@@ -96,7 +96,7 @@
     
 }
 
-/* @media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) {
     .hero{
         height: 65vh;
     }
@@ -114,35 +114,7 @@
     .title{
         padding: 0rem 2rem 0rem 2rem;   
         margin-left: 0rem;  
-        margin-top: -8rem;
-    }
-    .bannervector{
-        z-index: 1;
-        margin-top: -5rem;
-        padding-left: 4rem;
-    }
-} */
-
-@media only screen and (max-width: 481px) {
-    .hero{
-        height: 65vh;
-    }
-    .hero .content{
-        display: flex;
-        flex-direction: column;
-        /* position: relative; */
-    }
-    .hero .content h1{
-        font-weight: 700;
-        font-size: 3rem;
-    }
-    .hero .content p{
-        padding-top: .5rem;
-    }
-    .title{
-        padding: 0rem 2rem 0rem 2rem;   
-        margin-left: 0rem;  
-        margin-top: -8rem;
+        margin-top: -6rem;
     }
     .bannervector{
         z-index: 1;
@@ -151,4 +123,113 @@
     }
 }
 
+@media only screen and (min-width: 481px) {
+    .hero{
+        height: 70vh;
+    }
+    .hero .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero .content h1{
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    .hero .content p{
+        padding-top: .5rem;
+    }
+    .title{
+        padding: 0rem 2rem 0rem 2rem;   
+        margin-left: 0rem;  
+        margin-top: -10rem;
+    }
+    .bannervector{
+        z-index: 1;
+        margin-top: -5rem;
+        padding-left: 4rem;
+    }
+}
+
+@media (min-width:641px)  { 
+    .hero{
+        height: 85vh;
+    }
+    .hero .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero .content h1{
+        font-weight: 700;
+        font-size: 4rem;
+    }
+    .hero .content p{
+        padding-top: .5rem;
+    }
+    .title{
+        padding: 0rem 2rem 0rem 2rem;   
+        margin-left: 0rem;  
+        margin-top: -14rem;
+    }
+    .bannervector{
+        z-index: 1;
+        margin-top: -6rem;
+        padding-left: 4rem;
+    }
+}
+	
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px)  { 
+    .hero{
+        height: 70vh;
+    }
+    .hero .content{
+        display: flex;
+        flex-direction: row;
+    }
+    .hero .content h1{
+        font-weight: 700;
+        font-size: 4rem;
+    }
+    .hero .content p{
+        padding-top: .5rem;
+    }
+    .title{
+        padding: 0rem;   
+        margin-left: -8rem;  
+        margin-top: 16rem;
+    }
+    .bannervector{
+        z-index: 1;
+        margin-top: -6rem;
+        padding-left: 4rem;
+    }
+ }		
+ 
+ /* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) { 
+    .hero{
+        height: 70vh;
+    }
+    .hero .content{
+        display: flex;
+        flex-direction: row;
+    }
+    .hero .content h1{
+        font-weight: 700;
+        font-size: 4rem;
+    }
+    .title{
+        padding: 0rem;   
+        margin-left: -8rem;  
+        margin-top: 18rem;
+    }
+    .bannervector{
+        z-index: 1;
+        margin-top: -6rem;
+        padding-left: 1rem;
+    }
+ }
+
+ /* hi-res laptops and desktops */
+/* @media (min-width:1281px) { }			 */
 
