@@ -26,6 +26,7 @@ export default function BasicAccordion() {
           id="panel1-header"
         >
           <Typography 
+          className={styles.Question}
           sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             1. What is SEHAT Nutrition, and how does it differ from other wellness platforms ?
             </Typography>
@@ -49,7 +50,9 @@ export default function BasicAccordion() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             2. How do SEHAT Nutrition's personalized nutrition plans work ?
             </Typography>
         </AccordionSummary>
@@ -71,7 +74,9 @@ export default function BasicAccordion() {
           aria-controls="panel3-content"
           id="panel3-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             3. Can I customize my fitness routine with SEHAT Nutrition ?
           </Typography>
         </AccordionSummary>
@@ -93,7 +98,9 @@ export default function BasicAccordion() {
           aria-controls="panel4-content"
           id="panel4-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold" , color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold" , color:'rgba(24, 24, 24, 0.8)'}}>
             4. How does SEHAT Nutrition support mental health ?
           </Typography>
         </AccordionSummary>
@@ -115,7 +122,9 @@ export default function BasicAccordion() {
           aria-controls="panel5-content"
           id="panel5-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             5. What are the health tracking devices included in the plans ?
           </Typography>
         </AccordionSummary>
@@ -137,7 +146,9 @@ export default function BasicAccordion() {
           aria-controls="panel6-content"
           id="panel6-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             6. Is SEHAT Nutrition suitable for families ?
             </Typography>
         </AccordionSummary>
@@ -160,7 +171,9 @@ export default function BasicAccordion() {
           aria-controls="panel7-content"
           id="panel7-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             7. How can corporations benefit from SEHAT Nutrition's Corporate Plan ?
             </Typography>
         </AccordionSummary>
@@ -183,7 +196,9 @@ export default function BasicAccordion() {
           aria-controls="panel8-content"
           id="panel8-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             8. Can I try SEHAT Nutrition before committing to a subscription ?
             </Typography>
         </AccordionSummary>
@@ -205,7 +220,9 @@ export default function BasicAccordion() {
           aria-controls="panel9-content"
           id="panel9-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             9. What is the cost of SEHAT Nutrition's subscription plans ?
             </Typography>
         </AccordionSummary>
@@ -227,7 +244,9 @@ export default function BasicAccordion() {
           aria-controls="panel10-content"
           id="panel10-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             10. How does SEHAT Nutrition handle dietary restrictions and preferences ?
             </Typography>
         </AccordionSummary>
@@ -249,7 +268,9 @@ export default function BasicAccordion() {
           aria-controls="panel11-content"
           id="panel11-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             11. What sets SEHAT Nutrition's AI recipe generator apart from other meal planning tools ?
             </Typography>
         </AccordionSummary>
@@ -271,7 +292,9 @@ export default function BasicAccordion() {
           aria-controls="panel12-content"
           id="panel12-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             12. Is SEHAT Nutrition available globally ?
             </Typography>
         </AccordionSummary>
@@ -293,7 +316,9 @@ export default function BasicAccordion() {
           aria-controls="panel13-content"
           id="panel13-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             13. How often are new virtual workout sessions and recipes added ?
             </Typography>
         </AccordionSummary>
@@ -315,7 +340,9 @@ export default function BasicAccordion() {
           aria-controls="panel14-content"
           id="panel14-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             14. Can I switch between Apple and Samsung wellness kits during my subscription ?
             </Typography>
         </AccordionSummary>
@@ -338,7 +365,9 @@ export default function BasicAccordion() {
           aria-controls="panel15-content"
           id="panel15-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             15. Are there any hidden fees or additional costs beyond the subscription price ?
             </Typography>
         </AccordionSummary>
@@ -360,7 +389,9 @@ export default function BasicAccordion() {
           aria-controls="panel16-content"
           id="panel16-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             16. How do I access customer support if I have questions or encounter issues ?
             </Typography>
         </AccordionSummary>
@@ -382,7 +413,9 @@ export default function BasicAccordion() {
           aria-controls="panel17-content"
           id="panel17-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             17. Is SEHAT Nutrition's platform accessible via mobile devices ?
             </Typography>
         </AccordionSummary>
@@ -404,7 +437,9 @@ export default function BasicAccordion() {
           aria-controls="panel18-content"
           id="panel18-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
           18. Are the virtual workout sessions suitable for beginners ?
             </Typography>
         </AccordionSummary>
@@ -426,7 +461,9 @@ export default function BasicAccordion() {
           aria-controls="panel19-content"
           id="panel19-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             19. What measures does SEHAT Nutrition take to ensure data privacy and security ?
             </Typography>
         </AccordionSummary>
@@ -448,7 +485,9 @@ export default function BasicAccordion() {
           aria-controls="panel20-content"
           id="panel20-header"
         >
-          <Typography sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
+          <Typography 
+          className={styles.Question}
+          sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
             20. Can I cancel my subscription at any time ?
             </Typography>
         </AccordionSummary>
