@@ -2,12 +2,16 @@ import { color } from 'framer-motion';
 import ContactCard from '../../../component/Contact/ContactCard'
 import ContactForm from '../../../component/Contact/ContactForm'
 import styles from "./Contact.module.css";
+import Email from './Email'
 
 const ContactusPage = () => {
   return (
     <div style={{backgroundColor:'#fff'}}>
+      <div style={{textAlign:'center'}}><Email></Email></div>
+      
       <div className={styles.container}>
-        <h1 style={{color:'#50D5B1'}}>Contact Us</h1>
+        {/* <h1 style={{color:'#50D5B1'}}>Contact Us</h1> */}
+        
         <ContactCard />
 
         {/* <section className={styles.contact_section}>

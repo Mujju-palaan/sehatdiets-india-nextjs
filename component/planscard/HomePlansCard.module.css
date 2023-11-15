@@ -5,7 +5,8 @@
     border-radius: 8px;
   }
   .card {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     max-width: 36rem;
     min-width: 36rem;
     height: auto;

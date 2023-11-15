@@ -1,0 +1,29 @@
+.main{
+    background-color: #50D5B1;
+    padding: 4rem;
+    font-family: sans-serif;
+}
+
+.icon{
+    font-size: 12rem;
+    color: #f5f6f9;
+}
+
+@media screen and (max-width: 444px) {
+    .main{
+        background-color: #50D5B1;
+        padding: 4rem;
+        font-family: sans-serif;
+    }
+    .main h1{
+        font-size: 4rem;
+    }
+    .main h2{
+        font-size: 2.4rem;
+    }
+    
+    .icon{
+        font-size: 8rem;
+        color: #f5f6f9;
+    }
+}

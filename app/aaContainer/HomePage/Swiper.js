@@ -80,7 +80,7 @@ const SwiperPlan = () => {
           modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
           className="swiper_container"
         >
-          <SwiperSlide style={{marginLeft:'2.5rem'}}>
+          <SwiperSlide style={{marginLeft:'1.5rem'}}>
           <HomePlansCard 
         title="Weekly Diet Plan"
         content={`We specialize in crafting personalized weekly diet plans, tailored to your unique needs and goals. 
