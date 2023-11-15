@@ -98,7 +98,7 @@
 
 @media only screen and (min-width: 320px) {
     .hero{
-        height: 65vh;
+        height: 70vh;
     }
     .hero .content{
         display: flex;
@@ -206,7 +206,7 @@
  }		
  
  /* big landscape tablets, laptops, and desktops */
-@media (min-width:1025px) { 
+@media (min-width:1024px) { 
     .hero{
         height: 70vh;
     }
