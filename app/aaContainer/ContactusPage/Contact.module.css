@@ -30,7 +30,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 320px) {
   .container {
     padding: 0 0rem;
     margin: 0 auto;

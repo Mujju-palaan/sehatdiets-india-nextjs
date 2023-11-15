@@ -71,10 +71,11 @@
   }
   .plpara {
     font-size: 14px;
+    padding-left: 0rem;
   }
 }
 
-@media screen and (min-width: 768px)  and (max-width: 1025px) {
+@media screen and (min-width: 768px)  and (max-width: 1024px) {
   .h2 {
     font-size: 3rem;
     color: #50D5B1;
@@ -96,10 +97,11 @@
   }
   .plpara {
     font-size: 18px;
+    padding-left: 0rem;
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .main {
     margin: 3rem;
     padding: 4rem 20rem 0 10rem;
