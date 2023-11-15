@@ -5,7 +5,7 @@
 }
 .h2 {
   font-size: 4rem;
-  color: #67788a;
+  color: #50D5B1;
   font-family: "Optimistic Text Bold", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
   line-height: 34px;
@@ -47,10 +47,10 @@
   color: gray;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 320px)  {
   .h2 {
     font-size: 2rem;
-    color: #67788a;
+    color: #50D5B1;
     font-family: "Optimistic Text Bold", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
     line-height: 34px;
@@ -58,7 +58,7 @@
   }
   .h3 {
     font-size: 2rem;
-    color: #67788a;
+    color: #50D5B1;
   }
   .maincontent {
     margin: 2rem;
@@ -74,11 +74,62 @@
   }
 }
 
-@media screen and (max-width: 585px) {
+@media screen and (min-width: 768px)  and (max-width: 1025px) {
+  .h2 {
+    font-size: 3rem;
+    color: #50D5B1;
+    font-family: "Optimistic Text Bold", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    line-height: 34px;
+    margin-bottom: 30px;
+  }
+  .h3 {
+    font-size: 3rem;
+    color: #50D5B1;
+  }
+  .maincontent {
+    margin: 2rem;
+    padding: 0rem;
+  }
+  .heading {
+    font-size: 3rem;
+  }
+  .plpara {
+    font-size: 18px;
+  }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 1025px) {
+  .main {
+    margin: 3rem;
+    padding: 4rem 20rem 0 10rem;
+    text-align: center;
+  }
+  .h2 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    color: #50D5B1;
+  }
+  .circle {
+    font-size: 2rem;
+    height: 40px;
+    width: 40px;
+  }
+  .heading {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  .maincontent {
+    margin: 3rem;
+    padding: 4rem 14rem 0 14rem;
+    text-align: center;
+  }
+  .plpara {
+    font-size: 18px;
+    padding-left: 4.5rem;
+    color: gray;
+  }
 }
 
-@media screen and (min-width: 1350px) {
-}
+/* @media screen and (min-width: 1350px) {
+} */

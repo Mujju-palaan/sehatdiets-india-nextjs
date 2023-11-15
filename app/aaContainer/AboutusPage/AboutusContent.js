@@ -74,7 +74,7 @@ const AboutusContent = () => {
 
         {/* ******** Second heading********** */}
 
-        <h2 className={styles.heading}>
+        <h2 className={styles.h2}>
           Comprehensive Services for Your Well-being
         </h2>
         <div style={{ textAlign: "left", paddingTop: "1rem" }}>
@@ -143,7 +143,7 @@ const AboutusContent = () => {
         {/* ******** third heading********** */}
         <div>
           <h2 className={styles.heading}>Our Approach to Reach You</h2>
-          <p style={{color:'gray'}}>
+          <p className={styles.plpara} style={{color:'gray'}}>
             We use user-friendly websites and apps, social media campaigns,
             influencer collaborations, and local business partnerships to reach
             health-conscious individuals, families, and companies.
@@ -151,7 +151,7 @@ const AboutusContent = () => {
         </div>
         <div>
           <h2 className={styles.heading}>Our Clear Refund Policy</h2>
-          <p style={{color:'gray'}}>
+          <p className={styles.plpara} style={{color:'gray'}}>
             Trust and transparency are paramount. You have two months to
             evaluate our services, and if we fall short of your expectations,
             you'll receive a full refund.
@@ -162,7 +162,7 @@ const AboutusContent = () => {
           Your preferences matter. Select between an Apple Wellness Kit or a
           Samsung Wellness Kit.
         </p> */}
-        <p style={{color:'gray'}}>
+        <p className={styles.plpara} style={{color:'gray'}}>
           At SEHAT Nutrition, we're not just enhancing wellness; we're
           simplifying it, personalizing it, and making it enjoyable. Join us on
           this journey toward a healthier, happier you. Your well-being, your

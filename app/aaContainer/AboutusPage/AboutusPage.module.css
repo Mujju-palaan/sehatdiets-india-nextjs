@@ -24,7 +24,7 @@
   padding: 1rem 4rem;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 320px) {
   .container {
     margin: 0rem;
     padding: 0rem;
@@ -56,10 +56,20 @@
   }
 }
 
-@media screen and (max-width: 585px) {
+@media screen and (min-width: 768px) {
+  .main p{
+    font-size: 18px;
+  }
+  .h3 {
+    font-size: 3rem;
+  }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 1025px) {
+  .main {
+    margin: 2rem;
+    padding: 2rem 6rem;
+  }
 }
 
 @media screen and (min-width: 1350px) {

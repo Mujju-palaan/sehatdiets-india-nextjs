@@ -67,7 +67,7 @@ const AboutusPage = () => {
         
         <AboutusContent />
 
-        <Ourteam />
+        {/* <Ourteam /> */}
 
       </div>
     </>
