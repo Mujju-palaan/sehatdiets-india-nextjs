@@ -89,26 +89,26 @@ const Footer = () => {
             </ul>
             <ul className={styles.box}>
               <li className={styles.link_name}>Our Services</li>
-              <li>
-                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>Weekly Diet Plan</Link>
+              <li style={{fontSize:'1.4rem',cursor:'pointer'}}>Weekly Diet Plan
+                {/* <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}></Link> */}
               </li>
-              <li>
-                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>Workout Trainer</Link>
+              <li style={{fontSize:'1.4rem',cursor:'pointer'}}>Workout Trainer
+                {/* <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}></Link> */}
               </li>
-              <li>
-                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>AI Therapy</Link>
+              <li style={{fontSize:'1.4rem',cursor:'pointer'}}>AI Therapy
+                {/* <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}></Link> */}
               </li>
-              <li>
-                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>AI Recipe Maker</Link>
+              <li style={{fontSize:'1.4rem',cursor:'pointer'}}>AI Recipe Maker
+                {/* <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}></Link> */}
               </li>
-              <li>
-                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>Ebooks/Podcasts</Link>
+              <li style={{fontSize:'1.4rem',cursor:'pointer'}}>Ebooks/Podcasts
+                {/* <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}></Link> */}
               </li>
-              <li>
-                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>Grocery Delivery</Link>
+              <li style={{fontSize:'1.4rem',cursor:'pointer'}}>Grocery Delivery
+                {/* <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}></Link> */}
               </li>
-              <li>
-                <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}>Fitness Trackers</Link>
+              <li style={{fontSize:'1.4rem',cursor:'pointer'}}>Fitness Trackers
+                {/* <Link href="/WeightLossPrograms" style={{fontSize:'1.4rem'}}></Link> */}
               </li>
               
               {/* <li>
