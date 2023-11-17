@@ -85,7 +85,7 @@ const SwiperPlan = () => {
         title="Weekly Diet Plan"
         content={`We specialize in crafting personalized weekly diet plans, tailored to your unique needs and goals. 
         Let us guide you on your journey to a healthier and more balanced lifestyle.`}
-        Images="./plan1.webp"
+        Images="./plan1_1.jpeg"
         link="WeightLossPrograms"
       />
           </SwiperSlide>
@@ -101,7 +101,7 @@ const SwiperPlan = () => {
           <HomePlansCard 
         title="AI Therapy"
         content={`Revolutionizing mental health support with innovative and accessible solutions. Explore the future of mental well-being.`}
-        Images="./plan6.WEBP"
+        Images="./plan6_1.jpeg"
         // plan6.jpg
         link="WeightLossPrograms"
       />
@@ -122,7 +122,7 @@ const SwiperPlan = () => {
           <HomePlansCard 
         title="Ebooks/podcasts"
         content={`Your digital gateway to knowledge and entertainment. Dive into a world of limitless learning and captivating content.`}
-        Images="./plan5.webp"
+        Images="./plan5_1.jpeg"
         link="WeightLossPrograms"
       />
           </SwiperSlide>
@@ -139,7 +139,7 @@ const SwiperPlan = () => {
 
           <SwiperSlide>
           <HomePlansCard 
-        title="Fitness Trackers"
+        title="Workout templates!"
         content={`Your daily companion for a healthier you. Monitor, motivate, and achieve your fitness goals with precision.`}
         Images="./plan7.webp"
         link="WeightLossPrograms"
