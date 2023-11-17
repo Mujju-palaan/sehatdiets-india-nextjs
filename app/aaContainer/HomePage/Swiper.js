@@ -93,7 +93,7 @@ const SwiperPlan = () => {
           <HomePlansCard 
         title="Workout templates!"
         content={` Your gateway to a healthier you. Achieve your fitness goals with our expert guidance.`}
-        Images="./plan4.webp"
+        Images="./plan4_1.WEBP"
         link="WeightLossPrograms"
       />
           </SwiperSlide>
