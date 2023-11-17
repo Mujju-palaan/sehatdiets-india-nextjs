@@ -113,7 +113,7 @@ export default function BasicAccordion() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion className={styles.main}
+      {/* <Accordion className={styles.main}
         expanded={expanded === 'panel5'}
         onChange={(Event, isExpanded) =>  handleChange(isExpanded, 'panel5')}
       >
@@ -135,7 +135,7 @@ export default function BasicAccordion() {
           kits to align with their technological ecosystem of preference.
           </Typography>
         </AccordionDetails>
-      </Accordion>
+      </Accordion> */}
 
       <Accordion className={styles.main}
         expanded={expanded === 'panel6'}
@@ -149,7 +149,7 @@ export default function BasicAccordion() {
           <Typography 
           className={styles.Question}
           sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
-            6. Is SEHAT Nutrition suitable for families ?
+            5. Is SEHAT Nutrition suitable for families ?
             </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -174,7 +174,7 @@ export default function BasicAccordion() {
           <Typography 
           className={styles.Question}
           sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
-            7. How can corporations benefit from SEHAT Nutrition's Corporate Plan ?
+            6. How can Corporations benefit from SEHAT Nutrition's Corporate Plan ?
             </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -187,7 +187,7 @@ export default function BasicAccordion() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion className={styles.main}
+      {/* <Accordion className={styles.main}
         expanded={expanded === 'panel8'}
         onChange={(Event, isExpanded) =>  handleChange(isExpanded, 'panel8')}
       >
@@ -204,13 +204,14 @@ export default function BasicAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{fontSize:'1.5rem', color:'gray'}}>
-          SEHAT Nutrition offers a transparent refund policy that spans two months from the 
+          SEHAT Nutrition offers a transparent 100% refund policy that spans one months from the 
           commencement of the subscription. If you're not satisfied within this 
           timeframe, you can request a full refund.
 
           </Typography>
         </AccordionDetails>
-      </Accordion>
+      </Accordion> */}
+
       <Accordion className={styles.main}
         expanded={expanded === 'panel9'}
         onChange={(Event, isExpanded) =>  handleChange(isExpanded, 'panel9')}
@@ -223,13 +224,13 @@ export default function BasicAccordion() {
           <Typography 
           className={styles.Question}
           sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
-            9. What is the cost of SEHAT Nutrition's subscription plans ?
+            7. What is the cost of SEHAT Nutrition's subscription plans ?
             </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{fontSize:'1.5rem', color:'gray'}}>
-          SEHAT Nutrition offers different plans: $365/year for the Individual Plan, 
-          $1000/year for the Family Plan, and $5000/year for the Corporate Plan, with 
+          SEHAT Nutrition offers different plans: ₹5475/year for the Individual Plan, 
+          ₹36,500/year for the Family Plan, and ₹3,65,000/year for the Corporate Plan, with 
           varying features and benefits.
 
           </Typography>
@@ -247,7 +248,7 @@ export default function BasicAccordion() {
           <Typography 
           className={styles.Question}
           sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
-            10. How does SEHAT Nutrition handle dietary restrictions and preferences ?
+            8. How does SEHAT Nutrition handle dietary restrictions and preferences ?
             </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -271,7 +272,7 @@ export default function BasicAccordion() {
           <Typography 
           className={styles.Question}
           sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
-            11. What sets SEHAT Nutrition's AI recipe generator apart from other meal planning tools ?
+            9. What sets SEHAT Nutrition's AI recipe generator apart from other meal planning tools ?
             </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -295,7 +296,7 @@ export default function BasicAccordion() {
           <Typography 
           className={styles.Question}
           sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
-            12. Is SEHAT Nutrition available globally ?
+            10. Is SEHAT Nutrition available globally ?
             </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -319,7 +320,7 @@ export default function BasicAccordion() {
           <Typography 
           className={styles.Question}
           sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
-            13. How often are new virtual workout sessions and recipes added ?
+            11. How often are new virtual workout sessions and recipes added ?
             </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -331,7 +332,7 @@ export default function BasicAccordion() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion className={styles.main}
+      {/* <Accordion className={styles.main}
         expanded={expanded === 'panel14'}
         onChange={(Event, isExpanded) =>  handleChange(isExpanded, 'panel14')}
       >
@@ -354,7 +355,7 @@ export default function BasicAccordion() {
 
           </Typography>
         </AccordionDetails>
-      </Accordion>
+      </Accordion> */}
 
       <Accordion className={styles.main}
         expanded={expanded === 'panel15'}
@@ -368,7 +369,7 @@ export default function BasicAccordion() {
           <Typography 
           className={styles.Question}
           sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
-            15. Are there any hidden fees or additional costs beyond the subscription price ?
+            12. Are there any hidden fees or additional costs beyond the subscription price ?
             </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -392,7 +393,7 @@ export default function BasicAccordion() {
           <Typography 
           className={styles.Question}
           sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
-            16. How do I access customer support if I have questions or encounter issues ?
+            13. How do I access customer support if I have questions or encounter issues ?
             </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -404,7 +405,7 @@ export default function BasicAccordion() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion className={styles.main}
+      {/* <Accordion className={styles.main}
         expanded={expanded === 'panel17'}
         onChange={(Event, isExpanded) =>  handleChange(isExpanded, 'panel17')}
       >
@@ -426,7 +427,7 @@ export default function BasicAccordion() {
 
           </Typography>
         </AccordionDetails>
-      </Accordion>
+      </Accordion> */}
 
       <Accordion className={styles.main}
         expanded={expanded === 'panel18'}
@@ -440,7 +441,7 @@ export default function BasicAccordion() {
           <Typography 
           className={styles.Question}
           sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
-          18. Are the virtual workout sessions suitable for beginners ?
+          14. Are the virtual workout sessions suitable for beginners ?
             </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -464,7 +465,7 @@ export default function BasicAccordion() {
           <Typography 
           className={styles.Question}
           sx={{fontSize:'2rem', fontWeight:"bold", color:'rgba(24, 24, 24, 0.8)'}}>
-            19. What measures does SEHAT Nutrition take to ensure data privacy and security ?
+            15. What measures does SEHAT Nutrition take to ensure data privacy and security ?
             </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -476,7 +477,7 @@ export default function BasicAccordion() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion className={styles.main}
+      {/* <Accordion className={styles.main}
         expanded={expanded === 'panel20'}
         onChange={(Event, isExpanded) =>  handleChange(isExpanded, 'panel20')}
       >
@@ -499,7 +500,7 @@ export default function BasicAccordion() {
 
           </Typography>
         </AccordionDetails>
-      </Accordion>
+      </Accordion> */}
 
             
     </div>
