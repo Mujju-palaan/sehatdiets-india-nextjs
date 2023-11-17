@@ -34,7 +34,7 @@ const ContactCard = () => {
             <Link
               
               href="//api.whatsapp.com/send?phone=918712219195 
-                        &text=Welcome to SEHAT NUTRITION Official"
+                        &text=Hi"
             >
               {" "}
               Chat Now <span>-&gt;</span>
