@@ -85,7 +85,7 @@ const SwiperPlan = () => {
         title="Weekly Diet Plan"
         content={`We specialize in crafting personalized weekly diet plans, tailored to your unique needs and goals. 
         Let us guide you on your journey to a healthier and more balanced lifestyle.`}
-        Images="./plan1_1.jpeg"
+        Images="./plan1_1.WEBP"
         link="WeightLossPrograms"
       />
           </SwiperSlide>
@@ -101,7 +101,7 @@ const SwiperPlan = () => {
           <HomePlansCard 
         title="AI Therapy"
         content={`Revolutionizing mental health support with innovative and accessible solutions. Explore the future of mental well-being.`}
-        Images="./plan6_1.jpeg"
+        Images="./plan6_1.WEBP"
         // plan6.jpg
         link="WeightLossPrograms"
       />
@@ -112,7 +112,7 @@ const SwiperPlan = () => {
           <HomePlansCard 
         title="AI Recipe Maker"
         content={`Redefining cooking with smart and personalized recipe suggestions. Elevate your culinary experience with artificial intelligence.`}
-        Images="./plan3_1.jpeg"
+        Images="./plan3_1.WEBP"
         // plan3.png
         link="WeightLossPrograms"
       />
@@ -122,7 +122,7 @@ const SwiperPlan = () => {
           <HomePlansCard 
         title="Ebooks/podcasts"
         content={`Your digital gateway to knowledge and entertainment. Dive into a world of limitless learning and captivating content.`}
-        Images="./plan5_1.jpeg"
+        Images="./plan5_1.WEBP"
         link="WeightLossPrograms"
       />
           </SwiperSlide>
@@ -131,7 +131,7 @@ const SwiperPlan = () => {
           <HomePlansCard 
         title="Grocery Delivery"
         content={`The convenience you deserve, right at your doorstep. Shop smart and save time with our hassle-free grocery delivery service.`}
-        Images="./plan2_1.jpeg"
+        Images="./plan2_1.WEBP"
         link="WeightLossPrograms"
       />
           </SwiperSlide>
@@ -141,7 +141,7 @@ const SwiperPlan = () => {
           <HomePlansCard 
         title="Fitness Tracker"
         content={`Your daily companion for a healthier you. Monitor, motivate, and achieve your fitness goals with precision.`}
-        Images="./plan7_1.jpeg"
+        Images="./plan7_1.WEBP"
         link="WeightLossPrograms"
       />
           </SwiperSlide>
