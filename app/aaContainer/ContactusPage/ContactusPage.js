@@ -27,24 +27,18 @@ const ContactusPage = () => {
                 width={100} height={450} style={{border: 0}} allowFullScreen="" loading="lazy" className={styles.mapping}
                 referrerPolicy="no-referrer-when-downgrade"></iframe> */}
 
-      {/* <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15218.367521260014!2d78.5346071!3d17.526984999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb84c89cbe14c7%3A0xb452068e9ebbce19!2sKowkoor%2C%20Secunderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1694400160292!5m2!1sen!2sin"
-        width="600"
-        height="450"
-        style={{ border: 0 }}
-        allowFullScreen=""
-        loading="lazy"
-        className={styles.mapping}
-        referrerPolicy="no-referrer-when-downgrade"
-      ></iframe> */}
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15224.994193994085!2d78.36621959921395!3d17.447813967211488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93e0c3619651%3A0x9965cd1406455a0f!2sRaheja%20Mindspace%20IT%20Park!5e0!3m2!1sen!2sin!4v1699275957002!5m2!1sen!2sin" 
+      
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3806.391652153534!2d78.38304439886228!3d17.440958806069098!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93e2259ec6d1%3A0x78b017cc55f52306!2sVittal%20Rao%20Nagar%2C%20Madhapur%2C%20Hyderabad%2C%20Telangana%20500081!5e0!3m2!1sen!2sin!4v1700225509014!5m2!1sen!2sin" 
       width="600" 
       height="450" 
       style={{ border: 0 }} 
       allowFullScreen="" 
       loading="lazy" 
       className={styles.mapping}
-      referrerPolicy="no-referrer-when-downgrade"></iframe>
+      referrerPolicy="no-referrer-when-downgrade">      
+      </iframe>
+      
     </div>
   );
 };
