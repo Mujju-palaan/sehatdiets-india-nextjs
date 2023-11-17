@@ -36,7 +36,7 @@ const PricingPage = () => {
           content9={`Employee Well-being`}
           content10={`24/7 Support`}
           content11={`100% refund`}
-          link={`https://buy.stripe.com/bIY7wefqxcgFfZKdR2`}
+          link={`https://buy.stripe.com/aEU2bU0vDeoN4h25kA`}
         />
         <Familypricing
           title={`Family Plan`}
@@ -53,7 +53,7 @@ const PricingPage = () => {
           content9={`Employee Well-being`}
           content10={`24/7 Support`}
           content11={`100% refund`}
-          link={`https://buy.stripe.com/dR68AifqxgwV00M3cp`}
+          link={`https://buy.stripe.com/7sI7weemtfsRbJucN3`}
         />
         <Businesspricing
           title={`Corporate Plan`}
@@ -70,7 +70,7 @@ const PricingPage = () => {
           content9={`Employee Well-being`}
           content10={`24/7 Support`}
           content11={`100% refund`}
-          link={`https://buy.stripe.com/00g7we1zHcgF9BmfZc`}
+          link={`https://buy.stripe.com/8wMdUCdip6Wl6pa3cu`}
         />
       </div>
       {/* <div className={styles.contact_section}>
