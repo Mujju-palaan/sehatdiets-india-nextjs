@@ -231,5 +231,19 @@
  }
 
  /* hi-res laptops and desktops */
-/* @media (min-width:1281px) { }			 */
+@media (min-width:1234px) {
+    .hero{
+        height: 75vh;
+    }
+    .hero .content h1{
+        font-weight: 700;
+        font-size: 6rem;
+    }
+    .title{
+        padding: 0rem;  
+        padding-right: 2rem; 
+        /* margin-left: -8rem;   */
+        margin-top: 14rem;
+    }
+ }			
 

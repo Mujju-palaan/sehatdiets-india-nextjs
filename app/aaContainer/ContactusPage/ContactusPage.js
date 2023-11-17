@@ -39,7 +39,7 @@ const ContactusPage = () => {
       referrerPolicy="no-referrer-when-downgrade">      
       </iframe> */}
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30436.72835523431!2d78.51400743801555!3d17.52702486014986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s2%20%2F%202%204%2C%20R%20G%20K%20KOWKOOR%2C%20KOWKOOR%20-%20VILLAGE%2C%20Secunderabad%2C%20Hyderabad%2C%20Telangana%2C%20500010!5e0!3m2!1sen!2sin!4v1700251501603!5m2!1sen!2sin" 
+      {/* <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30436.72835523431!2d78.51400743801555!3d17.52702486014986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s2%20%2F%202%204%2C%20R%20G%20K%20KOWKOOR%2C%20KOWKOOR%20-%20VILLAGE%2C%20Secunderabad%2C%20Hyderabad%2C%20Telangana%2C%20500010!5e0!3m2!1sen!2sin!4v1700251501603!5m2!1sen!2sin" 
         width="600" 
         height="450" 
         style={{ border: 0 }} 
@@ -47,7 +47,7 @@ const ContactusPage = () => {
         loading="lazy" 
         className={styles.mapping}
         referrerPolicy="no-referrer-when-downgrade">       
-      </iframe>
+      </iframe> */}
       
     </div>
   );
