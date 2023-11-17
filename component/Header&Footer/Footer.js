@@ -152,14 +152,15 @@ const Footer = () => {
             </ul>
             <ul className={styles.box}>
               <li className={styles.link_name}>Contact Us</li>
-              {/* <li>
+              <li>
                 <MdLocationOn
                   style={{ color: "whitesmoke", marginRight: "1rem" }}
                 />
                 <a href="https://goo.gl/maps/pMLudn9mUUqmGVpZ8" style={{fontSize:'1.4rem'}}>
-                  R G K Kowkoor, Secunderabad
+                  {/* R G K Kowkoor, Secunderabad */}
+                  2 / 2 4, R G K KOWKOOR, KOWKOOR - VILLAGE, Secunderabad, Hyderabad, Telangana, 500010
                 </a>
-              </li> */}
+              </li>
               <li>
                 <AiFillPhone
                   style={{ color: "whitesmoke", marginRight: "1rem" }}
