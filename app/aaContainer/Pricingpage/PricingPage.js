@@ -40,7 +40,7 @@ const PricingPage = () => {
         />
         <Familypricing
           title={`Family Plan`}
-          subtitle={`For family services (Recommended)`}
+          subtitle={`For family services (5 Members)`}
           price={`36500`}
           content1={`Personalized Nutrition`}
           content2={`Virtual Workouts`}
@@ -57,7 +57,7 @@ const PricingPage = () => {
         />
         <Businesspricing
           title={`Corporate Plan`}
-          subtitle={`For business services`}
+          subtitle={`For business service (50 Members)`}
           price={`365000`}
           content1={`Personalized Nutrition`}
           content2={`Virtual Workouts`}

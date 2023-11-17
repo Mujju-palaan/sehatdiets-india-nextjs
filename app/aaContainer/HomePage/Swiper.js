@@ -52,7 +52,7 @@ const SwiperPlan = () => {
         }}
         scrollbar={{ draggable: true }}
           autoplay={{
-            delay: 1000,
+            delay: 2000,
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
           }}
@@ -91,7 +91,7 @@ const SwiperPlan = () => {
           </SwiperSlide>
           <SwiperSlide>
           <HomePlansCard 
-        title="Workout Trainer"
+        title="Workout templates!"
         content={` Your gateway to a healthier you. Achieve your fitness goals with our expert guidance.`}
         Images="./plan4.webp"
         link="WeightLossPrograms"
@@ -112,7 +112,7 @@ const SwiperPlan = () => {
           <HomePlansCard 
         title="AI Recipe Maker"
         content={`Redefining cooking with smart and personalized recipe suggestions. Elevate your culinary experience with artificial intelligence.`}
-        Images="./plan3.WEBP"
+        Images="./plan3_1.jpeg"
         // plan3.png
         link="WeightLossPrograms"
       />
@@ -131,7 +131,7 @@ const SwiperPlan = () => {
           <HomePlansCard 
         title="Grocery Delivery"
         content={`The convenience you deserve, right at your doorstep. Shop smart and save time with our hassle-free grocery delivery service.`}
-        Images="./plan2.webp"
+        Images="./plan2_1.jpeg"
         link="WeightLossPrograms"
       />
           </SwiperSlide>
@@ -139,9 +139,9 @@ const SwiperPlan = () => {
 
           <SwiperSlide>
           <HomePlansCard 
-        title="Workout templates!"
+        title="Fitness Tracker"
         content={`Your daily companion for a healthier you. Monitor, motivate, and achieve your fitness goals with precision.`}
-        Images="./plan7.webp"
+        Images="./plan7_1.jpeg"
         link="WeightLossPrograms"
       />
           </SwiperSlide>
