@@ -11,7 +11,7 @@ const BannerDivider = () => {
             <Banner_Vector /> 
           </div>
           <div className='title'>          
-            <h1 style={{color:'#F5F6F9', fontFamily:'sans-serif'}}>Your Ultimate well-beign at Just ₹10 per/Day</h1>
+            <h1 style={{color:'#F5F6F9', fontFamily:'sans-serif'}}>Your Ultimate Well-beign at Just 15₹ per/Day</h1>
             {/* <p style={{fontFamily:'sans-serif'}}> In today's fast-paced world, SEHATm Nutrition isn't just a wellness platform, it's your gateway
               to an extraordinary life, available at an incredible rate of just ₹10 pre day, Seamlessly blending
               personalized nutrition, cutting-edge technology and unwavering support, we empower you to

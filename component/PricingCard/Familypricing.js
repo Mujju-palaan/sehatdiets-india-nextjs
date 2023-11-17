@@ -11,7 +11,7 @@ const Familypricing = (props) => {
           <span>{props.subtitle}</span>
         </h2>
         <div className="etiquet-price">
-          <p>{props.price} <span style={{fontSize:'1rem', paddingTop:'1.2rem'}}>+GST</span></p>
+          <p>{props.price} <span style={{fontSize:'1rem', paddingTop:'1.2rem'}}></span></p>
           <div></div>
         </div>
         <div className="benefits-list">

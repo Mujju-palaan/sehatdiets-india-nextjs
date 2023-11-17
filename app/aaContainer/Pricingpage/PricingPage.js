@@ -24,7 +24,7 @@ const PricingPage = () => {
         <PricingCard
           title={`Basic Plan`}
           subtitle={`For individual service`}
-          price={`3650`}
+          price={`5475`}
           content1={`Personalized Nutrition`}
           content2={`Virtual Workouts`}
           content3={`Mental Health`}
