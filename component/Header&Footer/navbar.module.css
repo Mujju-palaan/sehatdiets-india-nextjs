@@ -143,7 +143,7 @@
   .mobile-navbar-btn {
     display: inline-block;
     z-index: 999;
-    /*border: .1rem solid #161617;*/
+    /* border: .1rem solid #161617; */
   }
 
   .mobile-nav-icon {
@@ -187,7 +187,7 @@
   }
 
   .navbarList .navbarItem a:hover {
-    color: #e50914;
+    /* color: #e50914; */
   }
 
   /*when user click on the open menu icon*/
@@ -212,5 +212,6 @@
     z-index: 999;
     /* padding: 0rem 19.5rem; */
     width: 100%;
+    border: 1rem solid #50D5B1;  
   }
 }
