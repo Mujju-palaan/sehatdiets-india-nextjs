@@ -3,7 +3,6 @@ import ContactCard from '../../../component/Contact/ContactCard'
 import ContactForm from '../../../component/Contact/ContactForm'
 import styles from "./Contact.module.css";
 import Email from './Email'
-import Counter from './Counter'
 
 const ContactusPage = () => {
   return (
@@ -43,9 +42,7 @@ const ContactusPage = () => {
         className={styles.mapping}
         referrerPolicy="no-referrer-when-downgrade">       
       </iframe> */}
-      <div>
-        <Counter />
-      </div>
+      
     </div>
   );
 };
