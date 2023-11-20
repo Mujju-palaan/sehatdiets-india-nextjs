@@ -2,6 +2,8 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '../component/Header&Footer/Header'
 import Footer from '../component/Header&Footer/Footer'
+import Whatsapp from '../component/Whatsapp/Whatsapp'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +22,8 @@ export default function RootLayout({ children }) {
       {children}
       <Footer></Footer>
       </body>
+      <Whatsapp />
+      
     </html>
   )
 }

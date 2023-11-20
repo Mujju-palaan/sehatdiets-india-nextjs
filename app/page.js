@@ -1,10 +1,15 @@
-import Home from "./home/page"
+'use client'
+import Home from "./home/page";
+
+
 
 export default function Page() {
   return (
     <>
-    <div><Home /></div>
-    
+      <div>
+        <Home />
+      </div>
+      
     </>
-  )
+  );
 }
