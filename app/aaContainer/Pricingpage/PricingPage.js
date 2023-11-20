@@ -4,13 +4,15 @@ import Familypricing from '../../../component/PricingCard/Familypricing';
 import Businesspricing from '../../../component/PricingCard/Businesspricing';
 import Testimonials from './Testimonials/Testimonials'
 import styles from './styles.module.scss'
+import Calendar from '../../../component/Calendar/Calendar'
+
 
 const PricingPage = () => {
   return (
     <div style={{backgroundColor:'#fff'}}>
-      <h2 style={{ padding: "4rem 0 0 0", textAlign: "center" , color:'#50D5B1', fontFamily:'sans-serif'}}>
+      <h1 className={styles.yearly} style={{ padding: "4rem 0 0 0", textAlign: "center" , color:'#50D5B1', fontFamily:'sans-serif'}}>
         Yearly Subscription
-      </h2>
+      </h1>
       <div
         style={{
           display: "flex",
@@ -72,6 +74,10 @@ const PricingPage = () => {
           content11={`100% refund`}
           link={`https://buy.stripe.com/8wMdUCdip6Wl6pa3cu`}
         />
+      </div>
+
+      <div>
+        <Calendar />
       </div>
       {/* <div className={styles.contact_section}>
       <h2>Details</h2>

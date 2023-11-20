@@ -6,3 +6,18 @@
         font-size: 3rem;
     }
 }
+
+.yearly{
+    font-size: 6rem;
+}
+@media (max-width:886px)  { 
+    .yearly{
+        font-size: 4rem;
+    }
+ }
+
+ @media (max-width:460px)  { 
+    .yearly{
+        font-size: 3rem;
+    }
+ }

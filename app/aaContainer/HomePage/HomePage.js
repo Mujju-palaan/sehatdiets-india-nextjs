@@ -11,7 +11,6 @@ import Journey from '../../../animation/Journey'
 import Preamble from '../../../animation/Preamble'
 
 
-
 const HomePage = () => {
   return (
     <div style={{fontFamily:'fairytale', backgroundColor:'#fff'}}>
@@ -150,6 +149,9 @@ const HomePage = () => {
           </div>
       </section> */}
       <BMICalculator></BMICalculator>
+
+      
+      
 
       {/* <section className={styles.Testimonials}>
         <h1 style={{color:'#50D5B1', fontFamily:'sans-serif,Pangeatext'}}>We Never Stop Smiling !</h1>

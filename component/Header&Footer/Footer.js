@@ -158,7 +158,7 @@ const Footer = () => {
                 />
                 <a href="https://goo.gl/maps/pMLudn9mUUqmGVpZ8" style={{fontSize:'1.4rem'}}>
                   {/* R G K Kowkoor, Secunderabad */}
-                  2 / 2 4, R G K KOWKOOR, KOWKOOR - VILLAGE, Secunderabad, Hyderabad, Telangana, 500010
+                  2 / 2 4, R G K KOWKOOR, Secunderabad, Hyderabad, Telangana, 500010
                 </a>
               </li>
               <li>
