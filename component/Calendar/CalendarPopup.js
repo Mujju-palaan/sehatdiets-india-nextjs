@@ -9,7 +9,7 @@ const CalendarPopup = () => {
       
       <PopupWidget
         url="https://calendly.com/acmesales"
-        rootElement={document.getElementById("__next")}
+        rootElement={document.getElementById("rootElement")}
         text="Click here to schedule meeting!"
         textColor="#ffffff"
         color="#50D5B1"
