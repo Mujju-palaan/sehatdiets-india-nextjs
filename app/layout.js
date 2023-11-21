@@ -11,6 +11,10 @@ export const metadata = {
   title: 'SEHAT',
   description: 'Your way to Wellness',
 }
+export const meta = {
+  name: "viewport",
+  content: "width=device-width, user-scalable=no"
+}
 
 export default function RootLayout({ children }) {
   return (
