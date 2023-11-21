@@ -7,7 +7,7 @@ const Whatsapp = () => {
   return (
     <div>
         <WhatsAppWidget
-        phoneNo="918712219195"
+        phoneNo=""
         position="right"
         widgetWidth="300px"
         widgetWidthMobile="260px"
@@ -18,7 +18,7 @@ const Whatsapp = () => {
         iconSize="50"
         iconColor="white"
         iconBgColor="rgba(33, 240, 21, 0.8)"
-        headerIcon="https://www.pdapps.net.in/_next/static/media/android-chrome-192x192.9a39c2c7.png"
+        headerIcon="/Sehat WA logo.png"
         headerIconColor="pink"
         headerTxtColor="black"
         headerBgColor="tomato"
