@@ -9,51 +9,62 @@ const mulish = Mulish({
 });
 
 const ContactForm = () => {
-  const [user, setUser] = useState({
+  const [data, setData] = useState({
     username: "",
     email: "",
     phone: "",
     message: "",
   });
+  const { username, email, phone, message } = data
+
   const [status, setStatus] = useState(null);
 
-  function handleChange(e) {
-    const name = e.target.name;
-    const value = e.target.value;
-
-    setUser((prevUser) => ({ ...prevUser, [name]: value }));
-  }
+  const handleChange = e =>
+  setData({ ...data, [e.target.name]: e.target.value })
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      const response = await fetch("/api/contact", {
+      await fetch("https://v1.nocodeapi.com/mujjupalaan/google_sheets/KDlCxnByISmWVuhY?tabId=Sheet1", {
         method: "POST",
-        headers: { Content_Type: "application/json" },
-        body: JSON.stringify({
-          username: user.username,
-          email: user.email,
-          phone: user.phone,
-          message: user.message,
-        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify([[username, email, phone, new Date().toLocaleString(), message]]),
       });
-      // Set the status based on the response from the API route
-      if (response.status === 200) {
-        setUser({
-          username: "",
-          email: "",
-          phone: "",
-          message: "",
-        });
-        setStatus("success");
-      } else {
-        setStatus("error");
-      }
-    } catch (e) {
+      // if (response.status === 200) {
+      //   setData({
+      //     username: "",
+      //     email: "",
+      //     phone: "",
+      //     message: "",
+      //   });
+      //   setStatus("success");
+      // } else {
+      //   setStatus("error");
+      // }
+    }
+    catch (e) {
       console.log(e);
     }
   };
+      // Set the status based on the response from the API route
+  //     if (response.status === 200) {
+  //       setUser({
+  //         username: "",
+  //         email: "",
+  //         phone: "",
+  //         message: "",
+  //       });
+  //       setStatus("success");
+  //     } else {
+  //       setStatus("error");
+  //     }
+  //   } catch (e) {
+  //     console.log(e);
+  //   }
+  // };
 
   return (
     <form className={styles.contact_form} onSubmit={handleSubmit}>
@@ -63,10 +74,9 @@ const ContactForm = () => {
           <input
             type="text"
             name="username"
-            id="username"
             placeholder="Enter your name"
             className={mulish.className}
-            value={user.username}
+            value={username}
             onChange={handleChange}
             required
           />
@@ -79,10 +89,9 @@ const ContactForm = () => {
           <input
             type="text"
             name="email"
-            id="email"
             placeholder="Enter your email"
             className={mulish.className}
-            value={user.email}
+            value={email}
             onChange={handleChange}
             required
             autoComplete="off"
@@ -96,10 +105,9 @@ const ContactForm = () => {
           <input
             type="number"
             name="phone"
-            id="phone"
             placeholder="Enter your phone"
             className={mulish.className}
-            value={user.phone}
+            value={phone}
             onChange={handleChange}
             required
             autoComplete="off"
@@ -112,11 +120,10 @@ const ContactForm = () => {
           Message
           <textarea
             name="message"
-            id="message"
             rows={5}
             placeholder="Enter your Message"
             className={mulish.className}
-            value={user.message}
+            value={message}
             onChange={handleChange}
             required
             autoComplete="off"

@@ -15,13 +15,13 @@ const ContactusPage = () => {
         
         <ContactCard />
 
-        {/* <section className={styles.contact_section}>
+        <section className={styles.contact_section}>
           <h2>
             We'd love to hear <span> from you </span>
           </h2>
 
           <ContactForm />
-        </section> */}
+        </section>
       </div>
       
       {/* <div>
