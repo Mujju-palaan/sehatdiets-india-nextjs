@@ -80,7 +80,7 @@ const ContactForm = () => {
             value={username}
             onChange={handleChange}
             required
-            style={{msContentZooming:'none'}}
+            style={{msContentZooming:'none', zoom:'none'}}
           />
         </label>
       </div>
@@ -97,7 +97,7 @@ const ContactForm = () => {
             onChange={handleChange}
             required
             autoComplete="off"
-            style={{msContentZooming:'none'}}
+            style={{msContentZooming:'none',zoom:'none'}}
           />
         </label>
       </div>
@@ -114,7 +114,7 @@ const ContactForm = () => {
             onChange={handleChange}
             required
             autoComplete="off"
-            style={{msContentZooming:'none'}}
+            style={{msContentZooming:'none',zoom:'none'}}
           />
         </label>
       </div>
@@ -131,7 +131,7 @@ const ContactForm = () => {
             onChange={handleChange}
             required
             autoComplete="off"
-            style={{msContentZooming:'none'}}
+            style={{msContentZooming:'none',zoom:'none'}}
           />
         </label>
       </div>
