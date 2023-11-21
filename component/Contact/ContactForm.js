@@ -24,29 +24,30 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setData("");
 
     try {
-      await fetch("https://v1.nocodeapi.com/mujjupalaan/google_sheets/KDlCxnByISmWVuhY?tabId=Sheet1", {
+      const response = await fetch("https://v1.nocodeapi.com/mujjupalaan/google_sheets/KDlCxnByISmWVuhY?tabId=Sheet1", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify([[username, email, phone, new Date().toLocaleString(), message]]),
       });
-      // if (response.status === 200) {
-      //   setData({
-      //     username: "",
-      //     email: "",
-      //     phone: "",
-      //     message: "",
-      //   });
-      //   setStatus("success");
-      // } else {
-      //   setStatus("error");
-      // }
+      if (response.status === 200) {
+        setData({
+          username: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+        setStatus("success");
+      } else {
+        setStatus("error");
+      }
     }
-    catch (e) {
-      console.log(e);
+    catch (err) {
+      console.log(err);
     }
   };
       // Set the status based on the response from the API route
