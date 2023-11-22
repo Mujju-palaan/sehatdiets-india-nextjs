@@ -30,6 +30,10 @@ const PricingCard = (props) => {
             </li>
             <li>
             <AiOutlineCheckCircle  style={{color:"#50D5B1", height:'2.5rem', width:'2.5rem'}}/>
+              <span>{props.content1_3}</span>
+            </li>
+            <li>
+            <AiOutlineCheckCircle  style={{color:"#50D5B1", height:'2.5rem', width:'2.5rem'}}/>
               <span>{props.content2}</span>
             </li>
             <li>

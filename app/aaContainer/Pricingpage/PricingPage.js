@@ -10,8 +10,9 @@ import Calendar from '../../../component/Calendar/Calendar'
 const PricingPage = () => {
   return (
     <div style={{backgroundColor:'#fff'}}>
-      <h1 className={styles.yearly} style={{ padding: "4rem 0 0 0", textAlign: "center" , color:'#50D5B1', fontFamily:'sans-serif'}}>
-        Yearly Subscription
+      <h1 className={styles.yearly} 
+      style={{ padding: "4rem 0 0 0", textAlign: "center" , color:'#50D5B1', fontFamily:'sans-serif'}}>
+        Subscriptions Plans
       </h1>
       <div
         style={{
@@ -30,6 +31,7 @@ const PricingPage = () => {
           content1={`Personalized Diet Plan`}
           content1_1={`8-Hours Diet Coach Support`}
           content1_2={`24 Dietitian Counsellings`}
+          content1_3={`Free maintenance plan`}
           content2={`Workout Templates`}
           content3={`Mental Health Support`}          
           content4={`Grocery delivery`}
@@ -49,6 +51,7 @@ const PricingPage = () => {
           content1={`Personalized Diet Plan`}
           content1_1={`8-Hours Diet Coach Support`}
           content1_2={`52 Dietitian Counsellings`}
+          content1_3={`Free maintenance plan`}
           content2={`Workout Templates`}
           content3={`Mental Health Support`}
           content4={`Grocery delivery`}
@@ -68,6 +71,7 @@ const PricingPage = () => {
           content1={`Personalized Diet Plan`}
           content1_1={`8-Hours Diet Coach Support`}
           content1_2={`52 Dietitian Counsellings`}
+          content1_3={`Free maintenance plan`}
           content2={`Workout Templates`}
           content3={`Mental Health Support`}         
           content4={`Grocery delivery`}
