@@ -59,7 +59,7 @@ const PricingPage = () => {
           content9={`Employee Well-being`}
           content10={`24/7 Customer Support`}
           content11={`100% refund`}
-          link={`https://buy.stripe.com/7sI7weemtfsRbJucN3`}
+          link={`https://buy.stripe.com/fZe03MguB6WlbJu00k`}
         />
         <Businesspricing
           title={`Corporate Plan`}
