@@ -24,53 +24,59 @@ const PricingPage = () => {
         }}
       >
         <PricingCard
-          title={`Basic Plan`}
-          subtitle={`Individual Plan 6 months service`}
+          title={`Individual Plan`}
+          subtitle={`24 Weeks`}
           price={`5475`}
-          content1={`Personalized Nutrition`}
-          content2={`Virtual Workouts`}
-          content3={`Mental Health`}
+          content1={`Personalized Diet Plan`}
+          content1_1={`8-Hours Diet Coach Support`}
+          content1_2={`24 Dietitian Counsellings`}
+          content2={`Workout Templates`}
+          content3={`Mental Health Support`}          
           content4={`Grocery delivery`}
           content5={`AI recipe maker`}
           content6={`Expert Support`}
           content7={`Health Tracking`}
           content8={`Shared Wellness`}
           content9={`Employee Well-being`}
-          content10={`24/7 Support`}
+          content10={`24/7 Customer Support`}
           content11={`100% refund`}
           link={`https://buy.stripe.com/aEU2bU0vDeoN4h25kA`}
         />
         <Familypricing
           title={`Family Plan`}
-          subtitle={`For family services (5 Members)`}
-          price={`36500`}
-          content1={`Personalized Nutrition`}
-          content2={`Virtual Workouts`}
-          content3={`Mental Health`}
+          subtitle={`52 Weeks (5 Members)`}
+          price={`25999`}
+          content1={`Personalized Diet Plan`}
+          content1_1={`8-Hours Diet Coach Support`}
+          content1_2={`52 Dietitian Counsellings`}
+          content2={`Workout Templates`}
+          content3={`Mental Health Support`}
           content4={`Grocery delivery`}
           content5={`AI recipe maker`}
           content6={`Expert Support`}
           content7={`Health Tracking`}
           content8={`Shared Wellness`}
           content9={`Employee Well-being`}
-          content10={`24/7 Support`}
+          content10={`24/7 Customer Support`}
           content11={`100% refund`}
           link={`https://buy.stripe.com/7sI7weemtfsRbJucN3`}
         />
         <Businesspricing
           title={`Corporate Plan`}
-          subtitle={`For business service (50 Members)`}
+          subtitle={`52 Weeks (50 Members)`}
           price={`365000`}
-          content1={`Personalized Nutrition`}
-          content2={`Virtual Workouts`}
-          content3={`Mental Health`}
+          content1={`Personalized Diet Plan`}
+          content1_1={`8-Hours Diet Coach Support`}
+          content1_2={`52 Dietitian Counsellings`}
+          content2={`Workout Templates`}
+          content3={`Mental Health Support`}         
           content4={`Grocery delivery`}
           content5={`AI recipe maker`}
           content6={`Expert Support`}
           content7={`Health Tracking`}
           content8={`Shared Wellness`}
           content9={`Employee Well-being`}
-          content10={`24/7 Support`}
+          content10={`24/7 Customer Support`}
           content11={`100% refund`}
           link={`https://buy.stripe.com/8wMdUCdip6Wl6pa3cu`}
         />

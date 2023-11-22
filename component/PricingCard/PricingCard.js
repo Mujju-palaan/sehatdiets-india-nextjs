@@ -22,18 +22,27 @@ const PricingCard = (props) => {
             </li>
             <li>
             <AiOutlineCheckCircle  style={{color:"#50D5B1", height:'2.5rem', width:'2.5rem'}}/>
+              <div>{props.content1_1}</div>
+            </li>
+            <li>
+            <AiOutlineCheckCircle  style={{color:"#50D5B1", height:'2.5rem', width:'2.5rem'}}/>
+              <span>{props.content1_2}</span>
+            </li>
+            <li>
+            <AiOutlineCheckCircle  style={{color:"#50D5B1", height:'2.5rem', width:'2.5rem'}}/>
               <span>{props.content2}</span>
             </li>
             <li>
-            <AiOutlineCheckCircle  style={{color:"#50D5B1", height:'2.5rem', width:'2.5rem'}}/>
+            <AiOutlineCloseCircle  style={{color:"red", height:'2.5rem', width:'2.5rem'}}/>
               <span>{props.content3}</span>
             </li>
+            
             <li>
-            <AiOutlineCheckCircle  style={{color:"#50D5B1", height:'2.5rem', width:'2.5rem'}}/>
+            <AiOutlineCloseCircle  style={{color:"red", height:'2.5rem', width:'2.5rem'}}/>
               <span>{props.content4}</span>
             </li>
             <li>
-            <AiOutlineCheckCircle  style={{color:"#50D5B1", height:'2.5rem', width:'2.5rem'}}/>
+            <AiOutlineCloseCircle  style={{color:"red", height:'2.5rem', width:'2.5rem'}}/>
               <span>{props.content5}</span>
             </li>
             <li>
@@ -53,7 +62,7 @@ const PricingCard = (props) => {
               <span>{props.content9}</span>
             </li>
             <li>
-            <AiOutlineCheckCircle  style={{color:"#50D5B1", height:'2.5rem', width:'2.5rem'}}/>
+            <AiOutlineCloseCircle  style={{color:"red", height:'2.5rem', width:'2.5rem'}}/>
               <span>{props.content10}</span>
             </li>
             <li>
