@@ -26,7 +26,7 @@ const PricingPage = () => {
       >
         <PricingCard
           title={`Individual Plan`}
-          subtitle={`24 Weeks`}
+          subtitle={`25 Weeks`}
           price={`5475`}
           content1={`Personalized Diet Plan`}
           content1_1={`8hrs Dietitian Support`}

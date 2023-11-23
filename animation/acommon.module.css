@@ -32,6 +32,62 @@
     .Banner_Vector{
         margin-top: -4rem;
         margin-left: -8rem;
+        height: 400px;
+        width: 400px;
+    }
+    .call{
+        height: 330px;
+        width: 330px;
+    }
+    .payment{
+        height: 330px;
+        width: 330px;
+    }
+    .journey{
+        height: 330px;
+        width: 330px;
+    }
+    .Preamble{
+        height: 400px;
+        width: 400px;
+    }
+}
+@media screen and (min-width: 375px) {
+    .size{
+        height: 100px;
+        width: 100px;
+    }
+    .Banner_Vector{
+        margin-top: -4rem;
+        margin-left: -7rem;
+        height: 450px;
+        width: 450px;
+    }
+    .call{
+        height: 330px;
+        width: 330px;
+    }
+    .payment{
+        height: 330px;
+        width: 330px;
+    }
+    .journey{
+        height: 330px;
+        width: 330px;
+    }
+    .Preamble{
+        height: 400px;
+        width: 400px;
+    }
+}
+@media screen and (min-width: 400px) {
+    .size{
+        height: 100px;
+        width: 100px;
+    }
+    .Banner_Vector{
+        margin-top: -4rem;
+        margin-left: -4rem;
         height: 450px;
         width: 450px;
     }
@@ -86,10 +142,10 @@
         width: 200px;
     }
     .Banner_Vector{
-        margin-top: -12rem;
-        margin-left: -8rem;
-        height: 800px;
-        width: 800px;
+        margin-top: -6rem;
+        margin-left: 0rem;
+        height: 600px;
+        width: 600px;
     }
     .call{
         height: 350px;
@@ -108,16 +164,17 @@
         width: 600px;
     }
  }	
- @media screen and (min-width:886px) and (max-width:1025px){
+ @media screen and (min-width:886px) and (max-width:1023px){
     .size{
         height: 200px;
         width: 200px;
     }
     .Banner_Vector{
-        margin-top: -8rem;
-        margin-left: -10rem;
+        margin-top: -7rem;
+        margin-left: 0rem;
         height: 650px;
         width: 650px;
+        padding-bottom: 4rem;
     }
     .call{
         height: 400px;
@@ -137,7 +194,7 @@
     }
  }					
 			
-@media screen and (min-width:1026px) { 
+@media screen and (min-width:1024px) { 
     .Banner_Vector{
         margin-top: -8rem;
         margin-left: -8rem;
