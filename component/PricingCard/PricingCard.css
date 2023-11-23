@@ -40,8 +40,24 @@
   padding: 0.2rem 1.2rem;
   border-radius: 5px 0 0 5px;
 }
+.etiquet-pricee {
+  position: relative;
+  /* background: #fdbd4a; */
+  background: #50D5B1;
+  width: 29rem;
+  margin-left: -0.65rem;
+  padding: 0.2rem 1.2rem;
+  border-radius: 5px 0 0 5px;
+}
 
 .etiquet-price p {
+  margin: 0;
+  padding-top: 0.4rem;
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.etiquet-pricee p {
   margin: 0;
   padding-top: 0.4rem;
   display: flex;
@@ -55,6 +71,12 @@
   font-size: 15px;
   font-weight: 300;
 }
+.etiquet-pricee p:before {
+  content: "₹";
+  margin-right: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
 
 .etiquet-price p:after {
   content: "/ Year";
@@ -62,8 +84,26 @@
   font-size: 15px;
   font-weight: 300;
 }
+.etiquet-pricee p:after {
+  content: "/ 6 months";
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
 
 .etiquet-price div {
+  position: absolute;
+  bottom: -23px;
+  right: 0px;
+  width: 0rem;
+  height: 0rem;
+  /* border-top: 13px solid #c58102; */
+  border-top: 13px solid #50D5B1;
+  border-bottom: 10px solid transparent;
+  border-right: 13px solid transparent;
+  z-index: -6;
+}
+.etiquet-pricee div {
   position: absolute;
   bottom: -23px;
   right: 0px;
