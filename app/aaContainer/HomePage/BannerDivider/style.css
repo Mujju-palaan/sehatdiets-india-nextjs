@@ -95,15 +95,15 @@
     justify-items: center;   
 }
 
-@media only screen and (max-width: 320px) 
-{.hero{
-    height: 70vh;
+@media only screen and (max-width: 320px) {
+    .hero{
+        height: 80vh;
 }
 }
 
 @media only screen and (min-width: 320px) {
     .hero{
-        height: 70vh;
+        height: 75vh;
     }
     .hero .content{
         display: flex;
