@@ -127,7 +127,26 @@
         padding-left: 4rem;
     }
 }
-
+@media only screen and (min-width: 360px) {
+    .hero{
+        height: 65vh;
+    }
+}
+@media only screen and (min-width: 390px) {
+    .hero{
+        height: 65vh;
+    }
+}
+@media only screen and (min-width: 414px) {
+    .hero{
+        height: 65vh;
+    }
+}
+@media only screen and (min-width: 428px) {
+    .hero{
+        height: 65vh;
+    }
+}
 @media only screen and (min-width: 481px) {
     .hero{
         height: 70vh;
