@@ -1,0 +1,65 @@
+'use client'
+const crypto =  require('crypto');
+import axios from 'axios';
+
+const paymentPayload = {
+  "merchantId": "M18SL6QE34PP",
+  "merchantTransactionId": "MT7850590068188104",
+  "merchantUserId": "MUID123",
+  "amount": 1,
+  "redirectUrl": "https://localhost:3000/redirect-url",
+  "redirectMode": "POST",
+  "callbackUrl": "https://localhost:3000/callback-url",
+  "mobileNumber": "7880006363",
+  "paymentInstrument": {
+    "type": "PAY_PAGE"
+  }
+}
+
+const PhonePeComponent = () => {
+  
+  const handlePayment =  () => {
+        const salt_key = 'ba42417d-04a2-432d-83c4-b475b3f53bcd'
+        const payload = JSON.stringify(paymentPayload);
+        const payloadMain = Buffer.from(payload).toString('base64');
+        const keyIndex = 1;
+        const string = payloadMain + '/pg/v1/pay' + salt_key;
+        const sha256 = crypto.createHash('sha256').update(string).digest('hex');
+        const checksum = sha256 + '###' + keyIndex;
+
+        const prod_URL = "https://api.phonepe.com/apis/hermes/pg/v1/pay"
+
+      const options = {
+      method: 'POST',
+      url: prod_URL,
+      headers: {
+        accept: 'application/json',
+        'Content-Type': 'application/json',
+        'X-VERIFY': checksum
+      },
+      data: {
+        request: payloadMain
+      }
+      
+  };
+
+  axios
+      .request(options)
+      .then(function (response) {
+        console.log(response.data);
+      })
+      .catch(function (error) {
+        console.error(error);
+      });
+}
+    
+  
+
+  return (
+    <div>
+      <button onClick={handlePayment}>Make Payment</button>
+    </div>
+  );
+};
+
+export default PhonePeComponent;
