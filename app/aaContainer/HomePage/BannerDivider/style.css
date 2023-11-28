@@ -139,7 +139,7 @@
 }
 @media only screen and (min-width: 390px) {
     .hero{
-        height: 65vh;
+        height: 60vh;
     }
 }
 @media only screen and (min-width: 414px) {
