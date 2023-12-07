@@ -24,7 +24,7 @@ const page = () => {
         "paymentInstrument": {
           "type": "PAY_PAGE"
         }
-      }
+      } 
     const test ={
         "merchantId": "PGTESTPAYUAT",
         "merchantTransactionId": "MT7850590068188104",
