@@ -15,10 +15,10 @@ const Whatsapp = () => {
         autoOpenTimer={5000}
         messageBox={true}
         messageBoxTxt="Hi Team, is there any related service available ?"
-        iconSize="50"
+        iconSize="80"
         iconColor="white"
         iconBgColor="rgba(33, 240, 21, 0.8)"
-        headerIcon="./Sehat WA logo.png"
+        headerIcon="./Sehat_WA_logo.png"
         headerIconColor="pink"
         headerTxtColor="black"
         headerBgColor="tomato"
