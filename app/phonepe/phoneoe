@@ -15,7 +15,6 @@ console.log(generateTransactionId())
 
   const merchantUserId =  "MUID" + Date.now()
   console.log(merchantUserId)
-
   const prod = {
     "merchantId": "M18SL6QE34PP",
     "merchantTransactionId": generateTransactionId(),
@@ -33,7 +32,6 @@ console.log(generateTransactionId())
     const payLoadMain = Buffer.from(payload).toString('base64');
         console.log(payLoadMain)
     const salt_key = 'ba42417d-04a2-432d-83c4-b475b3f53bcd'
-    // const key = `099eb0cd-02cf-4e2a-8aca-3e6c6aff0399`;
     const keyIndex = 1;
     const string = payLoadMain + '/pg/v1/pay' + salt_key;
     const sha256 = crypto.createHash('sha256').update(string).digest('hex');
@@ -42,6 +40,7 @@ console.log(generateTransactionId())
 
   const handler = () => {
     const options = {
+      // mode: 'no-cors',
       method: 'POST',
       headers: {
         accept: 'application/json',
@@ -50,7 +49,7 @@ console.log(generateTransactionId())
       },
       body: JSON.stringify({
         request: payLoadMain
-      })
+      }),
     };
     
     fetch('https://api.phonepe.com/apis/hermes/pg/v1/pay', options)
