@@ -18,7 +18,7 @@ const Whatsapp = () => {
         iconSize="50"
         iconColor="white"
         iconBgColor="rgba(33, 240, 21, 0.8)"
-        headerIcon="/Sehat WA logo.png"
+        headerIcon="./Sehat WA logo.png"
         headerIconColor="pink"
         headerTxtColor="black"
         headerBgColor="tomato"
