@@ -42,7 +42,7 @@ console.log(generateTransactionId())
 
   const handler = () => {
     const options = {
-      mode: 'no-cors',
+      // mode: 'no-cors',
       method: 'POST',
       headers: {
         accept: 'application/json',
