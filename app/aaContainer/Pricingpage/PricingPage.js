@@ -44,7 +44,7 @@ const PricingPage = () => {
           content9={`Employee Well-being`}
           content10={`24/7 Customer Support`}
           content11={`100% refund`}
-          link={`https://buy.stripe.com/aEU2bU0vDeoN4h25kA`}
+          link={`https://buy.stripe.com/9AQ6sa6U180pfZKcN7`}
         />
         <PricingCard
           title={`16 Weeks Plan`}
@@ -64,7 +64,7 @@ const PricingPage = () => {
           content9={`Employee Well-being`}
           content10={`24/7 Customer Support`}
           content11={`100% refund`}
-          link={`https://buy.stripe.com/aEU2bU0vDeoN4h25kA`}
+          link={`https://buy.stripe.com/aEU8Aia6ddkJ28U28u`}
         />
         <PricingCard
           title={`25 Weeks Plan`}
@@ -84,7 +84,7 @@ const PricingPage = () => {
           content9={`Employee Well-being`}
           content10={`24/7 Customer Support`}
           content11={`100% refund`}
-          link={`https://buy.stripe.com/aEU2bU0vDeoN4h25kA`}
+          link={`https://buy.stripe.com/6oE9Em4LT0xX7tedRd`}
         />
         <IndividualPlan
           title={`Individual Plan`}
@@ -124,7 +124,7 @@ const PricingPage = () => {
           content9={`Employee Well-being`}
           content10={`24/7 Customer Support`}
           content11={`100% refund`}
-          link={`https://buy.stripe.com/fZe03MguB6WlbJu00k`}
+          link={`https://buy.stripe.com/7sI7weemtfsRbJucN3`}
         />
         <Businesspricing
           title={`Corporate Plan`}
