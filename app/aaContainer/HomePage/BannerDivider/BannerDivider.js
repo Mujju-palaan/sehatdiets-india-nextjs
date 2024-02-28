@@ -12,7 +12,7 @@ const BannerDivider = () => {
           </div>
           <div className='title'>          
             <h1 style={{color:'#F5F6F9', fontFamily:'sans-serif'}}>
-              Tailored Nutrition for a Healthier You starting at just ₹15 / day</h1>
+              Tailored Nutrition for a Healthier You starting at just ₹100 / day</h1>
             {/* <p style={{fontFamily:'sans-serif'}}> In today's fast-paced world, SEHATm Nutrition isn't just a wellness platform, it's your gateway
               to an extraordinary life, available at an incredible rate of just ₹10 pre day, Seamlessly blending
               personalized nutrition, cutting-edge technology and unwavering support, we empower you to

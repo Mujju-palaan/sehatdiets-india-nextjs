@@ -45,7 +45,8 @@ console.log(generateTransactionId())
       headers: {
         accept: 'application/json',
        'Content-Type': 'application/json',
-       'X-VERIFY': checksum
+       'X-VERIFY': checksum,
+       "Access-Control-Allow-Origin":"*"
       },
       body: JSON.stringify({
         request: payLoadMain
