@@ -10,7 +10,7 @@ const Familypricing = (props) => {
           {/* <img src="./recomm.png" width={40} height={40} ></img> */}
           <span>{props.subtitle}</span>
         </h2>
-        <div className="etiquet-price">
+        <div className="etiquet-price-fam">
           <p>{props.price} <span style={{fontSize:'1rem', paddingTop:'1.2rem'}}></span></p>
           <div></div>
         </div>

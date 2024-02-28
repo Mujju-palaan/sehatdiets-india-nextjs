@@ -40,7 +40,7 @@
   padding: 0.2rem 1.2rem;
   border-radius: 5px 0 0 5px;
 }
-.etiquet-pricee {
+.etiquet-price-fam {
   position: relative;
   /* background: #fdbd4a; */
   background: #50D5B1;
@@ -49,13 +49,28 @@
   padding: 0.2rem 1.2rem;
   border-radius: 5px 0 0 5px;
 }
-
-.etiquet-price p {
+.etiquet-price-fam p {
   margin: 0;
   padding-top: 0.4rem;
   display: flex;
   font-size: 2.5rem;
   font-weight: 500;
+}
+.etiquet-price p {
+  margin: 0;
+  padding-top: 0.4rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 350;
+}
+.etiquet-pricee {
+  position: relative;
+  /* background: #fdbd4a; */
+  background: #50D5B1;
+  width: 29rem;
+  margin-left: -0.65rem;
+  padding: 0.2rem 1.2rem;
+  border-radius: 5px 0 0 5px;
 }
 .etiquet-pricee p {
   margin: 0;
@@ -66,26 +81,40 @@
 }
 
 .etiquet-price p:before {
+  /* content: "₹"; */
+  margin-right: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.etiquet-price p:after {
+  /* content: "/ Year"; */
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+/* fam */
+.etiquet-price-fam p:before {
   content: "₹";
   margin-right: 5px;
   font-size: 15px;
   font-weight: 300;
 }
+.etiquet-price-fam p:after {
+  content: "/ Year";
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* individual plan */
 .etiquet-pricee p:before {
   content: "₹";
   margin-right: 5px;
   font-size: 15px;
   font-weight: 300;
 }
-
-.etiquet-price p:after {
-  content: "/ Year";
-  margin-left: 5px;
-  font-size: 15px;
-  font-weight: 300;
-}
 .etiquet-pricee p:after {
-  content: "/ 25 Weeks";
+  content: "  /+gst";
   margin-left: 5px;
   font-size: 15px;
   font-weight: 300;

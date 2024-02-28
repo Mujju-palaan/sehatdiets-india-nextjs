@@ -28,7 +28,7 @@ const PricingCard = (props) => {
             <AiOutlineCheckCircle  style={{color:"#50D5B1", height:'2.5rem', width:'2.5rem'}}/>
               <span>{props.content1_2}</span>
             </li>
-            <li>
+            {/* <li>
             <AiOutlineCheckCircle  style={{color:"#50D5B1", height:'2.5rem', width:'2.5rem'}}/>
               <span>{props.content1_3}</span>
             </li>
@@ -68,7 +68,7 @@ const PricingCard = (props) => {
             <li>
             <AiOutlineCloseCircle  style={{color:"red", height:'2.5rem', width:'2.5rem'}}/>
               <span>{props.content10}</span>
-            </li>
+            </li> */}
             <li>
             <AiOutlineCheckCircle  style={{color:"#50D5B1", height:'2.5rem', width:'2.5rem'}}/>
               <span>{props.content11}</span>

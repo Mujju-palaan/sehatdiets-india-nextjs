@@ -5,6 +5,7 @@ import Businesspricing from '../../../component/PricingCard/Businesspricing';
 import Testimonials from './Testimonials/Testimonials'
 import styles from './styles.module.scss'
 import Calendar from '../../../component/Calendar/Calendar'
+import IndividualPlan from '../../../component/PricingCard/IndividualPlan'
 
 
 const PricingPage = () => {
@@ -24,10 +25,71 @@ const PricingPage = () => {
           padding: "6rem 0 4rem 0",
         }}
       >
+        
         <PricingCard
+          title={`8 Weeks Plan`}
+          // subtitle={`8 Weeks`}
+          price={`4999`}
+          content1={`Personalized Diet Plan`}
+          content1_1={`8hrs Dietitian Support`}
+          content1_2={`24 Dietitian Counsellings`}
+          content1_3={`Free maintenance plan`}
+          content2={`Workout Templates`}
+          content3={`Mental Health Support`}          
+          content4={`Grocery delivery`}
+          content5={`AI recipe maker`}
+          content6={`Expert Support`}
+          content7={`Health Tracking`}
+          content8={`Shared Wellness`}
+          content9={`Employee Well-being`}
+          content10={`24/7 Customer Support`}
+          content11={`100% refund`}
+          link={`https://buy.stripe.com/9AQ6sa6U180pfZKcN7`}
+        />
+        <PricingCard
+          title={`16 Weeks Plan`}
+          // subtitle={`16 Weeks`}
+          price={`8999`}
+          content1={`Personalized Diet Plan`}
+          content1_1={`8hrs Dietitian Support`}
+          content1_2={`24 Dietitian Counsellings`}
+          content1_3={`Free maintenance plan`}
+          content2={`Workout Templates`}
+          content3={`Mental Health Support`}          
+          content4={`Grocery delivery`}
+          content5={`AI recipe maker`}
+          content6={`Expert Support`}
+          content7={`Health Tracking`}
+          content8={`Shared Wellness`}
+          content9={`Employee Well-being`}
+          content10={`24/7 Customer Support`}
+          content11={`100% refund`}
+          link={`https://buy.stripe.com/aEU8Aia6ddkJ28U28u`}
+        />
+        <PricingCard
+          title={`25 Weeks Plan`}
+          // subtitle={`25 Weeks`}
+          price={`13999`}
+          content1={`Personalized Diet Plan`}
+          content1_1={`8hrs Dietitian Support`}
+          content1_2={`24 Dietitian Counsellings`}
+          content1_3={`Free maintenance plan`}
+          content2={`Workout Templates`}
+          content3={`Mental Health Support`}          
+          content4={`Grocery delivery`}
+          content5={`AI recipe maker`}
+          content6={`Expert Support`}
+          content7={`Health Tracking`}
+          content8={`Shared Wellness`}
+          content9={`Employee Well-being`}
+          content10={`24/7 Customer Support`}
+          content11={`100% refund`}
+          link={`https://buy.stripe.com/6oE9Em4LT0xX7tedRd`}
+        />
+        <IndividualPlan
           title={`Individual Plan`}
-          subtitle={`25 Weeks`}
-          price={`5475`}
+          subtitle={`(52 Weeks)`}
+          price={`24999`}
           content1={`Personalized Diet Plan`}
           content1_1={`8hrs Dietitian Support`}
           content1_2={`24 Dietitian Counsellings`}
@@ -46,8 +108,8 @@ const PricingPage = () => {
         />
         <Familypricing
           title={`Family Plan`}
-          subtitle={`52 Weeks (5 Members)`}
-          price={`25999`}
+          subtitle={`(5 Members)`}
+          price={`36500`}
           content1={`Personalized Diet Plan`}
           content1_1={`8hrs Dietitian Support`}
           content1_2={`52 Dietitian Counsellings`}
@@ -62,12 +124,12 @@ const PricingPage = () => {
           content9={`Employee Well-being`}
           content10={`24/7 Customer Support`}
           content11={`100% refund`}
-          link={`https://buy.stripe.com/fZe03MguB6WlbJu00k`}
+          link={`https://buy.stripe.com/7sI7weemtfsRbJucN3`}
         />
         <Businesspricing
           title={`Corporate Plan`}
-          subtitle={`52 Weeks (50 Members)`}
-          price={`365000`}
+          subtitle={`(50 Members)`}
+          price={`Contact our team`}
           content1={`Personalized Diet Plan`}
           content1_1={`8hrs Dietitian Support`}
           content1_2={`52 Dietitian Counsellings`}
@@ -87,7 +149,7 @@ const PricingPage = () => {
       </div>
 
       <div>
-        <Calendar />
+        {/* <Calendar /> */}
       </div>
       {/* <div className={styles.contact_section}>
       <h2>Details</h2>
