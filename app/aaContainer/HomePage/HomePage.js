@@ -41,7 +41,7 @@ const HomePage = () => {
       <h1>"Nutrition Tailored Just for You"</h1>
       <p style={{fontFamily:'Pangeatext,sans-serif',color:'rgba(0,0,0,.5)',paddingBottom:'4rem'}}> 
       In today's fast-paced world, SEHAT Nutrition isn't just a wellness platform, it's your gateway
-              to an extraordinary life, available at an incredible rate of just ₹15 per day, Seamlessly blending
+              to an extraordinary life, available at an incredible rate of just ₹100 per day, Seamlessly blending
               personalized nutrition, cutting-edge technology and unwavering support, we empower you to
               take charge of your well-being and transform it into a fulfilling lifestyle.
             </p> 
