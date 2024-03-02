@@ -86,6 +86,19 @@ const PricingPage = () => {
           content11={`100% refund`}
           link={`https://buy.stripe.com/6oE9Em4LT0xX7tedRd`}
         />
+      </div>
+
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: "4rem",
+          padding: "6rem 0 4rem 0",
+        }}
+      > 
+   
         <IndividualPlan
           title={`Individual Plan`}
           subtitle={`(52 Weeks)`}
